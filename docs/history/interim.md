@@ -12,6 +12,11 @@
 原稿同时写下了这段稳定表象下的摩擦：Kyrie Elelson（简称牢 K）、啸山夭（简称啸）等人在群内发送大量被其他群友认为不良的内容，成员对其感到厌恶。这里的评价沿用底本原话，不把“素质低下”当作本站的独立标签。
 
 **对应材料：** `image42`–`image44`
+<div class="event-images" aria-label="原始材料 image42 至 image44">
+  <a href="../../evidence/image42.png"><img src="../../evidence/image42.png" alt="原始材料 image42" loading="lazy"></a>
+  <a href="../../evidence/image43.jpeg"><img src="../../evidence/image43.jpeg" alt="原始材料 image43" loading="lazy"></a>
+  <a href="../../evidence/image44.jpeg"><img src="../../evidence/image44.jpeg" alt="原始材料 image44" loading="lazy"></a>
+</div>
 
 ## 02-18：神人初现与管理增补
 
@@ -20,6 +25,9 @@
 同一阶段，临时群新增三名管理：janrond、顾枫、Minecraft_lzz。新管理的加入让临时群不再只是沿用大群旧班底，也为接下来围绕管理权限和群昵称的争议提供了直接参与者。
 
 **对应材料：** `image45`
+<div class="event-images" aria-label="原始材料 image45">
+  <a href="../../evidence/image45.jpeg"><img src="../../evidence/image45.jpeg" alt="原始材料 image45" loading="lazy"></a>
+</div>
 
 ## 02-23 至 04-26：全员指挥官与改名热潮
 
@@ -48,6 +56,9 @@
 | 02-28 | 经其他成员推荐，Minecraft_lzz 重新担任管理 |
 
 **对应材料：** `image46`
+<div class="event-images" aria-label="原始材料 image46">
+  <a href="../../evidence/image46.jpeg"><img src="../../evidence/image46.jpeg" alt="原始材料 image46" loading="lazy"></a>
+</div>
 
 ## 02-21：啸再次被移出二群
 
@@ -55,6 +66,11 @@
 
 在原稿的语气里，这是“第二伊甸园少了一个神人”的传说性时刻；换成档案语言，它记录的是一次由玩笑、辱骂和管理处置组成的快速冲突。  
 **对应材料：** `image47`–`image49`
+<div class="event-images" aria-label="原始材料 image47 至 image49">
+  <a href="../../evidence/image47.png"><img src="../../evidence/image47.png" alt="原始材料 image47" loading="lazy"></a>
+  <a href="../../evidence/image48.png"><img src="../../evidence/image48.png" alt="原始材料 image48" loading="lazy"></a>
+  <a href="../../evidence/image49.png"><img src="../../evidence/image49.png" alt="原始材料 image49" loading="lazy"></a>
+</div>
 
 ## 02-23 至 02-24：伊隐被“背刺”的讨论
 
@@ -65,6 +81,10 @@
 本站保留这个节点，是因为它展示了临时群时期的另一条冲突链：群内关系并不只由 QQ 群操作决定，也会被 B 站视频、动态和评论区同步影响。涉及作品评价的部分不在本站做价值判断。
 
 **对应材料：** `image50`–`image51`
+<div class="event-images" aria-label="原始材料 image50 至 image51">
+  <a href="../../evidence/image50.jpeg"><img src="../../evidence/image50.jpeg" alt="原始材料 image50" loading="lazy"></a>
+  <a href="../../evidence/image51.png"><img src="../../evidence/image51.png" alt="原始材料 image51" loading="lazy"></a>
+</div>
 
 ## 阶段结语：临时并不等于短暂
 

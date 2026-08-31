@@ -11,6 +11,17 @@ Minecraft_lzz 在其他 UP 主的粉丝群里发现伊隐，随后在哔哩哔�
 
 底本特别说明，在这次正式加入之前，整理者曾经进过同一个群，但因为当时群内内容“过于逆天”而退出；第二次被邀请时才选择留下。后续史料就是从这次留下开始连续积累的。  
 **对应材料：** `image2`–`image10`
+<div class="event-images" aria-label="原始材料 image2 至 image10">
+  <a href="../../evidence/image2.jpeg"><img src="../../evidence/image2.jpeg" alt="原始材料 image2" loading="lazy"></a>
+  <a href="../../evidence/image3.jpeg"><img src="../../evidence/image3.jpeg" alt="原始材料 image3" loading="lazy"></a>
+  <a href="../../evidence/image4.jpeg"><img src="../../evidence/image4.jpeg" alt="原始材料 image4" loading="lazy"></a>
+  <a href="../../evidence/image5.jpeg"><img src="../../evidence/image5.jpeg" alt="原始材料 image5" loading="lazy"></a>
+  <a href="../../evidence/image6.jpeg"><img src="../../evidence/image6.jpeg" alt="原始材料 image6" loading="lazy"></a>
+  <a href="../../evidence/image7.jpeg"><img src="../../evidence/image7.jpeg" alt="原始材料 image7" loading="lazy"></a>
+  <a href="../../evidence/image8.jpeg"><img src="../../evidence/image8.jpeg" alt="原始材料 image8" loading="lazy"></a>
+  <a href="../../evidence/image9.jpeg"><img src="../../evidence/image9.jpeg" alt="原始材料 image9" loading="lazy"></a>
+  <a href="../../evidence/image10.jpeg"><img src="../../evidence/image10.jpeg" alt="原始材料 image10" loading="lazy"></a>
+</div>
 
 ## 01-30：管理第一次变动与“大清洗”
 
@@ -25,6 +36,14 @@ Minecraft_lzz 在其他 UP 主的粉丝群里发现伊隐，随后在哔哩哔�
 管理层完成重选，但整理者认为仍有一部分人是按“关系”入选，因而没有解决管理公信力问题。后来的 7 月管理争议再次回到同一个问题：管理身份究竟应该依据熟悉程度，还是活跃度、责任心、胆量和能力。
 
 **对应材料：** `image11`–`image16`
+<div class="event-images" aria-label="原始材料 image11 至 image16">
+  <a href="../../evidence/image11.jpeg"><img src="../../evidence/image11.jpeg" alt="原始材料 image11" loading="lazy"></a>
+  <a href="../../evidence/image12.jpeg"><img src="../../evidence/image12.jpeg" alt="原始材料 image12" loading="lazy"></a>
+  <a href="../../evidence/image13.jpeg"><img src="../../evidence/image13.jpeg" alt="原始材料 image13" loading="lazy"></a>
+  <a href="../../evidence/image14.jpeg"><img src="../../evidence/image14.jpeg" alt="原始材料 image14" loading="lazy"></a>
+  <a href="../../evidence/image15.jpeg"><img src="../../evidence/image15.jpeg" alt="原始材料 image15" loading="lazy"></a>
+  <a href="../../evidence/image16.jpeg"><img src="../../evidence/image16.jpeg" alt="原始材料 image16" loading="lazy"></a>
+</div>
 
 ## 02-03：大群短暂开放
 
@@ -32,6 +51,9 @@ Minecraft_lzz 在其他 UP 主的粉丝群里发现伊隐，随后在哔哩哔�
 
 这次开放让群在短时间内从相对封闭的熟人社区变成了公开入口，也直接引出了后面的成员增长、审核压力和风险账号问题。  
 **对应材料：** `image17`
+<div class="event-images" aria-label="原始材料 image17">
+  <a href="../../evidence/image17.png"><img src="../../evidence/image17.png" alt="原始材料 image17" loading="lazy"></a>
+</div>
 
 ## 02-07：神人小剧场
 
@@ -40,6 +62,11 @@ Minecraft_lzz 在其他 UP 主的粉丝群里发现伊隐，随后在哔哩哔�
 原计划后来因为突发事故延后到 6 月底，但截至原稿写作时的 8 月仍没有新的制作消息。底本还收录了当时的截图与整理者自己创作的一段内容，因此这件事既是群内玩梗，也是一次没有按计划落地的共同创作企划。
 
 **对应材料：** `image18`–`image20`
+<div class="event-images" aria-label="原始材料 image18 至 image20">
+  <a href="../../evidence/image18.jpeg"><img src="../../evidence/image18.jpeg" alt="原始材料 image18" loading="lazy"></a>
+  <a href="../../evidence/image19.jpeg"><img src="../../evidence/image19.jpeg" alt="原始材料 image19" loading="lazy"></a>
+  <a href="../../evidence/image20.png"><img src="../../evidence/image20.png" alt="原始材料 image20" loading="lazy"></a>
+</div>
 
 ## 02-09：大群人数破 1000
 
@@ -48,6 +75,11 @@ Minecraft_lzz 在其他 UP 主的粉丝群里发现伊隐，随后在哔哩哔�
 “破 1000”因此不是单纯的庆祝数字，而是群从早期小范围聊天走向公共社区的分水岭。后续的公开进群、群封禁和分部建立，都可以放回这个规模变化中理解。
 
 **对应材料：** `image21`–`image23`
+<div class="event-images" aria-label="原始材料 image21 至 image23">
+  <a href="../../evidence/image21.jpeg"><img src="../../evidence/image21.jpeg" alt="原始材料 image21" loading="lazy"></a>
+  <a href="../../evidence/image22.jpeg"><img src="../../evidence/image22.jpeg" alt="原始材料 image22" loading="lazy"></a>
+  <a href="../../evidence/image23.jpeg"><img src="../../evidence/image23.jpeg" alt="原始材料 image23" loading="lazy"></a>
+</div>
 
 ## 02-10：伊隐园建立
 
@@ -56,6 +88,11 @@ Minecraft_lzz 在其他 UP 主的粉丝群里发现伊隐，随后在哔哩哔�
 但建立之初的进群审核并不严密，异常账号或疑似黑产账号也进入了群。这个细节很关键：小群的设立原本是为了保存早期成员的熟悉感，却因为审核不足复制了大群扩张时的风险。
 
 **对应材料：** `image24`–`image26`
+<div class="event-images" aria-label="原始材料 image24 至 image26">
+  <a href="../../evidence/image24.png"><img src="../../evidence/image24.png" alt="原始材料 image24" loading="lazy"></a>
+  <a href="../../evidence/image25.jpeg"><img src="../../evidence/image25.jpeg" alt="原始材料 image25" loading="lazy"></a>
+  <a href="../../evidence/image26.jpeg"><img src="../../evidence/image26.jpeg" alt="原始材料 image26" loading="lazy"></a>
+</div>
 
 ## 02-11：账号受限与第二次“大清洗”
 
@@ -64,6 +101,19 @@ Minecraft_lzz 在其他 UP 主的粉丝群里发现伊隐，随后在哔哩哔�
 与 1 月 30 日相比，这次清理发生在账号受限和大群被举报的双重压力下。它不再只是一次内部秩序调整，而是群主账号、群聊安全和管理权同时受到冲击后的紧急响应。
 
 **对应材料：** `image27`–`image37`
+<div class="event-images" aria-label="原始材料 image27 至 image37">
+  <a href="../../evidence/image27.jpeg"><img src="../../evidence/image27.jpeg" alt="原始材料 image27" loading="lazy"></a>
+  <a href="../../evidence/image28.jpeg"><img src="../../evidence/image28.jpeg" alt="原始材料 image28" loading="lazy"></a>
+  <a href="../../evidence/image29.jpeg"><img src="../../evidence/image29.jpeg" alt="原始材料 image29" loading="lazy"></a>
+  <a href="../../evidence/image30.jpeg"><img src="../../evidence/image30.jpeg" alt="原始材料 image30" loading="lazy"></a>
+  <a href="../../evidence/image31.jpeg"><img src="../../evidence/image31.jpeg" alt="原始材料 image31" loading="lazy"></a>
+  <a href="../../evidence/image32.jpeg"><img src="../../evidence/image32.jpeg" alt="原始材料 image32" loading="lazy"></a>
+  <a href="../../evidence/image33.jpeg"><img src="../../evidence/image33.jpeg" alt="原始材料 image33" loading="lazy"></a>
+  <a href="../../evidence/image34.jpeg"><img src="../../evidence/image34.jpeg" alt="原始材料 image34" loading="lazy"></a>
+  <a href="../../evidence/image35.jpeg"><img src="../../evidence/image35.jpeg" alt="原始材料 image35" loading="lazy"></a>
+  <a href="../../evidence/image36.jpeg"><img src="../../evidence/image36.jpeg" alt="原始材料 image36" loading="lazy"></a>
+  <a href="../../evidence/image37.jpeg"><img src="../../evidence/image37.jpeg" alt="原始材料 image37" loading="lazy"></a>
+</div>
 
 ## 02-13：伊甸园第一次被封
 
@@ -80,6 +130,12 @@ Minecraft_lzz 在其他 UP 主的粉丝群里发现伊隐，随后在哔哩哔�
 原稿说明，2 月 28 日前，原群成员都在不同分部里发言；史记只继续记录临时伊甸园的内容。封禁也改变了分部的性质：有些群只是临时避难处，有些群后来变成原大群成员的长期聚集地。临时伊甸园尤其典型，既在封群时承担临时粉丝群功能，解封后又成为正常聊天群。
 
 **对应材料：** `image38`–`image41`
+<div class="event-images" aria-label="原始材料 image38 至 image41">
+  <a href="../../evidence/image38.jpeg"><img src="../../evidence/image38.jpeg" alt="原始材料 image38" loading="lazy"></a>
+  <a href="../../evidence/image39.jpeg"><img src="../../evidence/image39.jpeg" alt="原始材料 image39" loading="lazy"></a>
+  <a href="../../evidence/image40.jpeg"><img src="../../evidence/image40.jpeg" alt="原始材料 image40" loading="lazy"></a>
+  <a href="../../evidence/image41.jpeg"><img src="../../evidence/image41.jpeg" alt="原始材料 image41" loading="lazy"></a>
+</div>
 
 ## 本章回看：从公开增长到多群分流
 

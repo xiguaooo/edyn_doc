@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { computed, ref } from 'vue'
+import { withBase } from 'vitepress'
 
 const extensions: Record<number, string> = {
   17: 'png', 20: 'png', 24: 'png', 42: 'png', 47: 'png', 48: 'png', 49: 'png',
@@ -12,7 +13,7 @@ const extensions: Record<number, string> = {
 const ids = Array.from({ length: 219 }, (_, index) => index + 1)
 const selected = ref<number | null>(null)
 const filter = ref('')
-const source = (id: number) => `/evidence/image${id}.${extensions[id] || 'jpeg'}`
+const source = (id: number) => withBase(`/evidence/image${id}.${extensions[id] || 'jpeg'}`)
 const images = computed(() => ids.filter((id) => String(id).includes(filter.value.trim())))
 </script>
 

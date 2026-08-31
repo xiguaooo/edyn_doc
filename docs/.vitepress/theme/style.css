@@ -38,10 +38,15 @@ body { background-image: linear-gradient(90deg, rgb(31 90 84 / 0.035) 1px, trans
 .evidence-card:focus-visible, .evidence-close:focus-visible { outline: 3px solid #276fe0; outline-offset: 2px; }
 .evidence-card img { display: block; width: 100%; height: 151px; object-fit: cover; object-position: top; background: #d9e2dc; }
 .evidence-card span { display: block; padding: 7px 9px; font-family: var(--vp-font-family-mono); font-size: 12px; }
+.event-images { display: grid; grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: 10px; margin: 18px 0 28px; padding: 12px; border: 1px solid var(--vp-c-divider); border-radius: 4px; background: rgb(232 239 234 / 0.65); }
+.event-images a { display: block; min-width: 0; overflow: hidden; border: 1px solid var(--vp-c-divider); border-radius: 3px; background: var(--vp-c-bg-elv); }
+.event-images img { display: block; width: 100%; height: 168px; object-fit: contain; background: #d9e2dc; }
+.event-images a:hover { border-color: var(--vp-c-brand-2); }
+.event-images a:focus-visible { outline: 3px solid #276fe0; outline-offset: 2px; }
 .evidence-modal { position: fixed; z-index: 1000; inset: 0; display: grid; place-items: center; padding: 28px; background: rgb(15 24 20 / 0.84); cursor: zoom-out; }
 .evidence-modal figure { max-width: min(92vw, 1100px); max-height: calc(100vh - 56px); margin: 0; cursor: default; }
 .evidence-modal img { display: block; max-width: 100%; max-height: calc(100vh - 94px); border: 1px solid #9eb5aa; object-fit: contain; }
 .evidence-modal figcaption { margin-top: 8px; color: #fff; font-family: var(--vp-font-family-mono); font-size: 13px; text-align: center; }
 .evidence-close { position: fixed; top: 18px; right: 20px; width: 36px; height: 36px; border: 1px solid #bcd2c6; border-radius: 4px; background: #f4f7f4; color: #17211c; cursor: pointer; font-size: 20px; }
-@media (max-width: 640px) { .evidence-filter { grid-template-columns: 1fr; gap: 6px; } .evidence-filter input { width: 100%; } .evidence-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; } .evidence-card { height: 156px; } .evidence-card img { height: 124px; } }
+@media (max-width: 640px) { .evidence-filter { grid-template-columns: 1fr; gap: 6px; } .evidence-filter input { width: 100%; } .evidence-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; } .evidence-card { height: 156px; } .evidence-card img { height: 124px; } .event-images { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 6px; padding: 8px; } .event-images img { height: 130px; } }
 @media (prefers-reduced-motion: reduce) { .evidence-card { transition: none; } }

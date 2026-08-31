@@ -18,6 +18,17 @@
 底本用一句带黑色幽默的总结收束：谁也没想到大群的结局不是因为封禁，而是因为醉酒。对档案而言，更重要的是操作的不可逆性：原大群长期积累的聊天记录在一夜之间无法继续检索，原有成员关系也被迫重新分配。
 
 **对应材料：** `image151`–`image159`
+<div class="event-images" aria-label="原始材料 image151 至 image159">
+  <a href="../../evidence/image151.jpeg"><img src="../../evidence/image151.jpeg" alt="原始材料 image151" loading="lazy"></a>
+  <a href="../../evidence/image152.jpeg"><img src="../../evidence/image152.jpeg" alt="原始材料 image152" loading="lazy"></a>
+  <a href="../../evidence/image153.jpeg"><img src="../../evidence/image153.jpeg" alt="原始材料 image153" loading="lazy"></a>
+  <a href="../../evidence/image154.jpeg"><img src="../../evidence/image154.jpeg" alt="原始材料 image154" loading="lazy"></a>
+  <a href="../../evidence/image155.jpeg"><img src="../../evidence/image155.jpeg" alt="原始材料 image155" loading="lazy"></a>
+  <a href="../../evidence/image156.jpeg"><img src="../../evidence/image156.jpeg" alt="原始材料 image156" loading="lazy"></a>
+  <a href="../../evidence/image157.jpeg"><img src="../../evidence/image157.jpeg" alt="原始材料 image157" loading="lazy"></a>
+  <a href="../../evidence/image158.jpeg"><img src="../../evidence/image158.jpeg" alt="原始材料 image158" loading="lazy"></a>
+  <a href="../../evidence/image159.jpeg"><img src="../../evidence/image159.jpeg" alt="原始材料 image159" loading="lazy"></a>
+</div>
 
 ## 08-06：新伊甸园重建
 
@@ -26,6 +37,11 @@
 新群并不是原群的无缝恢复，而是一个拥有相似成员、却失去旧上下文的重建版本。这种“人还在、记录不在”的状态，是之后误解和争论反复升级的重要背景。
 
 **对应材料：** `image160`–`image162`
+<div class="event-images" aria-label="原始材料 image160 至 image162">
+  <a href="../../evidence/image160.png"><img src="../../evidence/image160.png" alt="原始材料 image160" loading="lazy"></a>
+  <a href="../../evidence/image161.png"><img src="../../evidence/image161.png" alt="原始材料 image161" loading="lazy"></a>
+  <a href="../../evidence/image162.png"><img src="../../evidence/image162.png" alt="原始材料 image162" loading="lazy"></a>
+</div>
 
 ## 08-07：桃十一事件的导火索
 
@@ -42,6 +58,9 @@
 底本还转述了有关 UP 主“枫祁小峰”的说法：其自动回复中“心上人”的链接曾指向桃的 B 站空间，双方在小峰中考结束后断绝关系，并疑似存在约 1700 元欠款。该信息来自“某人透露”，未附独立证据，本站以传闻状态保留，不作事实判断。
 
 **对应材料：** `image163`
+<div class="event-images" aria-label="原始材料 image163">
+  <a href="../../evidence/image163.jpeg"><img src="../../evidence/image163.jpeg" alt="原始材料 image163" loading="lazy"></a>
+</div>
 
 ## 08-09：第一、第二次反转
 
@@ -50,6 +69,15 @@
 8 月 9 日下午 3 点，伊隐在联动群公开讽刺桃的所作所为，也在大群公开嘲讽桃，取消她的管理身份并移出大群。原稿将其称为第一次反转：许多群友以为伊隐终于恢复正常，但后续发展很快证明事情没有结束。
 
 **对应材料：** `image164`–`image170`
+<div class="event-images" aria-label="原始材料 image164 至 image170">
+  <a href="../../evidence/image164.jpeg"><img src="../../evidence/image164.jpeg" alt="原始材料 image164" loading="lazy"></a>
+  <a href="../../evidence/image165.jpeg"><img src="../../evidence/image165.jpeg" alt="原始材料 image165" loading="lazy"></a>
+  <a href="../../evidence/image166.jpeg"><img src="../../evidence/image166.jpeg" alt="原始材料 image166" loading="lazy"></a>
+  <a href="../../evidence/image167.jpeg"><img src="../../evidence/image167.jpeg" alt="原始材料 image167" loading="lazy"></a>
+  <a href="../../evidence/image168.jpeg"><img src="../../evidence/image168.jpeg" alt="原始材料 image168" loading="lazy"></a>
+  <a href="../../evidence/image169.jpeg"><img src="../../evidence/image169.jpeg" alt="原始材料 image169" loading="lazy"></a>
+  <a href="../../evidence/image170.jpeg"><img src="../../evidence/image170.jpeg" alt="原始材料 image170" loading="lazy"></a>
+</div>
 
 ### 16:00：反桃潮、群号扩散与全体禁言
 
@@ -58,6 +86,13 @@
 Minecraft_lzz 加入桃粉丝群后不久开启全体禁言；发现禁言长时间没有关闭后，lzz 举报该群并直接退群。这里至少存在两条并行线：一条是公共群内的围观和扩散，另一条是以禁言、举报、退群为代表的风险控制。
 
 **对应材料：** `image171`–`image175`
+<div class="event-images" aria-label="原始材料 image171 至 image175">
+  <a href="../../evidence/image171.jpeg"><img src="../../evidence/image171.jpeg" alt="原始材料 image171" loading="lazy"></a>
+  <a href="../../evidence/image172.png"><img src="../../evidence/image172.png" alt="原始材料 image172" loading="lazy"></a>
+  <a href="../../evidence/image173.jpeg"><img src="../../evidence/image173.jpeg" alt="原始材料 image173" loading="lazy"></a>
+  <a href="../../evidence/image174.jpeg"><img src="../../evidence/image174.jpeg" alt="原始材料 image174" loading="lazy"></a>
+  <a href="../../evidence/image175.jpeg"><img src="../../evidence/image175.jpeg" alt="原始材料 image175" loading="lazy"></a>
+</div>
 
 ### 17:00：后悔、安慰与药物威胁说法
 
@@ -74,6 +109,13 @@ Minecraft_lzz 加入桃粉丝群后不久开启全体禁言；发现禁言长时
 晚上 9 点左右，有人转发伊隐的聊天记录，其中包含伊隐发给桃、意在让她“破防”的截图。原稿据此判断，伊隐对桃的包容度再次下降，不打算继续维持关系，并把它记作第三次反转。
 
 **对应材料：** `image176`–`image180`
+<div class="event-images" aria-label="原始材料 image176 至 image180">
+  <a href="../../evidence/image176.jpeg"><img src="../../evidence/image176.jpeg" alt="原始材料 image176" loading="lazy"></a>
+  <a href="../../evidence/image177.jpeg"><img src="../../evidence/image177.jpeg" alt="原始材料 image177" loading="lazy"></a>
+  <a href="../../evidence/image178.png"><img src="../../evidence/image178.png" alt="原始材料 image178" loading="lazy"></a>
+  <a href="../../evidence/image179.jpeg"><img src="../../evidence/image179.jpeg" alt="原始材料 image179" loading="lazy"></a>
+  <a href="../../evidence/image180.jpeg"><img src="../../evidence/image180.jpeg" alt="原始材料 image180" loading="lazy"></a>
+</div>
 
 ## 08-10：道歉、潜伏与二群是否移除伊隐
 
@@ -90,6 +132,13 @@ Minecraft_lzz 和几名成员进入桃粉丝群“潜伏”获取消息。lzz �
 这个决定短期内避免了立即分裂，却也让伊隐继续处在二群的冲突现场，为接下来几天的消息转发和角色对立留下空间。
 
 **对应材料：** `image181`–`image185`
+<div class="event-images" aria-label="原始材料 image181 至 image185">
+  <a href="../../evidence/image181.jpeg"><img src="../../evidence/image181.jpeg" alt="原始材料 image181" loading="lazy"></a>
+  <a href="../../evidence/image182.jpeg"><img src="../../evidence/image182.jpeg" alt="原始材料 image182" loading="lazy"></a>
+  <a href="../../evidence/image183.jpeg"><img src="../../evidence/image183.jpeg" alt="原始材料 image183" loading="lazy"></a>
+  <a href="../../evidence/image184.jpeg"><img src="../../evidence/image184.jpeg" alt="原始材料 image184" loading="lazy"></a>
+  <a href="../../evidence/image185.jpeg"><img src="../../evidence/image185.jpeg" alt="原始材料 image185" loading="lazy"></a>
+</div>
 
 ## 08-10 晚间：二群里的“不要再提桃”
 
@@ -100,6 +149,10 @@ HXH 当着伊隐的面重复了一遍相关话语，带有讽刺意味；lzz 看
 晚上 9 点左右，伊隐的聊天记录又显示，他知道桃事件及 8 月 9 日下午 3 点行动的起因。原稿据此认为，伊隐仍在过度包容桃，其他成员的不满达到高点。
 
 **对应材料：** `image186`–`image187`
+<div class="event-images" aria-label="原始材料 image186 至 image187">
+  <a href="../../evidence/image186.jpeg"><img src="../../evidence/image186.jpeg" alt="原始材料 image186" loading="lazy"></a>
+  <a href="../../evidence/image187.jpeg"><img src="../../evidence/image187.jpeg" alt="原始材料 image187" loading="lazy"></a>
+</div>
 
 ## 08-11：反串、F 与小号
 
@@ -110,6 +163,11 @@ HXH 当着伊隐的面重复了一遍相关话语，带有讽刺意味；lzz 看
 不久，伊隐把桃的小号拉进大群和二群，本意是让桃隐藏身份、避免再次出事。结果桃进群后不久就自行暴露身份，并试图在大群重新挑起讨论。原稿用“666，演都不演了”调侃这一转折。
 
 **对应材料：** `image188`–`image190`
+<div class="event-images" aria-label="原始材料 image188 至 image190">
+  <a href="../../evidence/image188.png"><img src="../../evidence/image188.png" alt="原始材料 image188" loading="lazy"></a>
+  <a href="../../evidence/image189.png"><img src="../../evidence/image189.png" alt="原始材料 image189" loading="lazy"></a>
+  <a href="../../evidence/image190.png"><img src="../../evidence/image190.png" alt="原始材料 image190" loading="lazy"></a>
+</div>
 
 ## 08-13 至 08-15：定时动态、移出与还款声明
 
@@ -120,6 +178,24 @@ HXH 当着伊隐的面重复了一遍相关话语，带有讽刺意味；lzz 看
 8 月 15 日下午 5 点，最新聊天记录显示伊隐向 F 道歉，并声明替桃还清欠小峰的 1685.77 元。F 随后按承诺删除动态，伊隐又发动态证明这笔钱已经还完。底本把它标为第五次反转：公开曝光链条暂时被道歉和还款声明打断。
 
 **对应材料：** `image191`–`image206`
+<div class="event-images" aria-label="原始材料 image191 至 image206">
+  <a href="../../evidence/image191.jpeg"><img src="../../evidence/image191.jpeg" alt="原始材料 image191" loading="lazy"></a>
+  <a href="../../evidence/image192.jpeg"><img src="../../evidence/image192.jpeg" alt="原始材料 image192" loading="lazy"></a>
+  <a href="../../evidence/image193.jpeg"><img src="../../evidence/image193.jpeg" alt="原始材料 image193" loading="lazy"></a>
+  <a href="../../evidence/image194.jpeg"><img src="../../evidence/image194.jpeg" alt="原始材料 image194" loading="lazy"></a>
+  <a href="../../evidence/image195.jpeg"><img src="../../evidence/image195.jpeg" alt="原始材料 image195" loading="lazy"></a>
+  <a href="../../evidence/image196.jpeg"><img src="../../evidence/image196.jpeg" alt="原始材料 image196" loading="lazy"></a>
+  <a href="../../evidence/image197.jpeg"><img src="../../evidence/image197.jpeg" alt="原始材料 image197" loading="lazy"></a>
+  <a href="../../evidence/image198.jpeg"><img src="../../evidence/image198.jpeg" alt="原始材料 image198" loading="lazy"></a>
+  <a href="../../evidence/image199.jpeg"><img src="../../evidence/image199.jpeg" alt="原始材料 image199" loading="lazy"></a>
+  <a href="../../evidence/image200.png"><img src="../../evidence/image200.png" alt="原始材料 image200" loading="lazy"></a>
+  <a href="../../evidence/image201.png"><img src="../../evidence/image201.png" alt="原始材料 image201" loading="lazy"></a>
+  <a href="../../evidence/image202.png"><img src="../../evidence/image202.png" alt="原始材料 image202" loading="lazy"></a>
+  <a href="../../evidence/image203.png"><img src="../../evidence/image203.png" alt="原始材料 image203" loading="lazy"></a>
+  <a href="../../evidence/image204.jpeg"><img src="../../evidence/image204.jpeg" alt="原始材料 image204" loading="lazy"></a>
+  <a href="../../evidence/image205.png"><img src="../../evidence/image205.png" alt="原始材料 image205" loading="lazy"></a>
+  <a href="../../evidence/image206.png"><img src="../../evidence/image206.png" alt="原始材料 image206" loading="lazy"></a>
+</div>
 
 ## 08-17：关系破裂与第六次反转
 
@@ -130,6 +206,12 @@ HXH 当着伊隐的面重复了一遍相关话语，带有讽刺意味；lzz 看
 原稿将其列作第六次反转。和前五次相比，这次变化不再只是群主态度改变，而是关系链从“保护与包容”转为公开断绝。
 
 **对应材料：** `image207`–`image210`
+<div class="event-images" aria-label="原始材料 image207 至 image210">
+  <a href="../../evidence/image207.jpeg"><img src="../../evidence/image207.jpeg" alt="原始材料 image207" loading="lazy"></a>
+  <a href="../../evidence/image208.jpeg"><img src="../../evidence/image208.jpeg" alt="原始材料 image208" loading="lazy"></a>
+  <a href="../../evidence/image209.jpeg"><img src="../../evidence/image209.jpeg" alt="原始材料 image209" loading="lazy"></a>
+  <a href="../../evidence/image210.jpeg"><img src="../../evidence/image210.jpeg" alt="原始材料 image210" loading="lazy"></a>
+</div>
 
 ## 08-25 至 08-26：阶段性收束
 
@@ -138,6 +220,17 @@ HXH 当着伊隐的面重复了一遍相关话语，带有讽刺意味；lzz 看
 8 月 26 日晚，伊隐也发布动态，指责自己替桃还钱后反遭辱骂。底本据此认为桃事件“基本结束”，但没有声称所有关系已经修复或争议得到公认结论。本站也因此使用“阶段性收束”，而不是“最终结案”。
 
 **对应材料：** `image211`–`image219`
+<div class="event-images" aria-label="原始材料 image211 至 image219">
+  <a href="../../evidence/image211.png"><img src="../../evidence/image211.png" alt="原始材料 image211" loading="lazy"></a>
+  <a href="../../evidence/image212.jpeg"><img src="../../evidence/image212.jpeg" alt="原始材料 image212" loading="lazy"></a>
+  <a href="../../evidence/image213.jpeg"><img src="../../evidence/image213.jpeg" alt="原始材料 image213" loading="lazy"></a>
+  <a href="../../evidence/image214.jpeg"><img src="../../evidence/image214.jpeg" alt="原始材料 image214" loading="lazy"></a>
+  <a href="../../evidence/image215.jpeg"><img src="../../evidence/image215.jpeg" alt="原始材料 image215" loading="lazy"></a>
+  <a href="../../evidence/image216.jpeg"><img src="../../evidence/image216.jpeg" alt="原始材料 image216" loading="lazy"></a>
+  <a href="../../evidence/image217.png"><img src="../../evidence/image217.png" alt="原始材料 image217" loading="lazy"></a>
+  <a href="../../evidence/image218.png"><img src="../../evidence/image218.png" alt="原始材料 image218" loading="lazy"></a>
+  <a href="../../evidence/image219.png"><img src="../../evidence/image219.png" alt="原始材料 image219" loading="lazy"></a>
+</div>
 
 ## 本章回看：六次反转背后的结构问题
 

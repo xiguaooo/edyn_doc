@@ -11,8 +11,8 @@
 
 **对应材料：** `image52`–`image53`
 <div class="event-images" aria-label="原始材料 image52 至 image53">
-  <a href="../../evidence/image52.jpeg"><img src="../../evidence/image52.jpeg" alt="原始材料 image52" loading="lazy"></a>
-  <a href="../../evidence/image53.jpeg"><img src="../../evidence/image53.jpeg" alt="原始材料 image53" loading="lazy"></a>
+  <EvidenceImage :id="52" />
+  <EvidenceImage :id="53" />
 </div>
 
 ## 03-07：被指“蹭流量”的小规模争执
@@ -23,9 +23,9 @@
 
 **对应材料：** `image54`–`image56`
 <div class="event-images" aria-label="原始材料 image54 至 image56">
-  <a href="../../evidence/image54.jpeg"><img src="../../evidence/image54.jpeg" alt="原始材料 image54" loading="lazy"></a>
-  <a href="../../evidence/image55.jpeg"><img src="../../evidence/image55.jpeg" alt="原始材料 image55" loading="lazy"></a>
-  <a href="../../evidence/image56.jpeg"><img src="../../evidence/image56.jpeg" alt="原始材料 image56" loading="lazy"></a>
+  <EvidenceImage :id="54" />
+  <EvidenceImage :id="55" />
+  <EvidenceImage :id="56" />
 </div>
 
 ## 04-01：愚人节与第二伊甸园的日常
@@ -53,9 +53,9 @@
 
 **对应材料：** `image57`–`image59`
 <div class="event-images" aria-label="原始材料 image57 至 image59">
-  <a href="../../evidence/image57.jpeg"><img src="../../evidence/image57.jpeg" alt="原始材料 image57" loading="lazy"></a>
-  <a href="../../evidence/image58.jpeg"><img src="../../evidence/image58.jpeg" alt="原始材料 image58" loading="lazy"></a>
-  <a href="../../evidence/image59.jpeg"><img src="../../evidence/image59.jpeg" alt="原始材料 image59" loading="lazy"></a>
+  <EvidenceImage :id="57" />
+  <EvidenceImage :id="58" />
+  <EvidenceImage :id="59" />
 </div>
 
 ## 06-06：K 被移出大群
@@ -66,10 +66,10 @@
 
 **对应材料：** `image60`–`image63`
 <div class="event-images" aria-label="原始材料 image60 至 image63">
-  <a href="../../evidence/image60.png"><img src="../../evidence/image60.png" alt="原始材料 image60" loading="lazy"></a>
-  <a href="../../evidence/image61.jpeg"><img src="../../evidence/image61.jpeg" alt="原始材料 image61" loading="lazy"></a>
-  <a href="../../evidence/image62.jpeg"><img src="../../evidence/image62.jpeg" alt="原始材料 image62" loading="lazy"></a>
-  <a href="../../evidence/image63.jpeg"><img src="../../evidence/image63.jpeg" alt="原始材料 image63" loading="lazy"></a>
+  <EvidenceImage :id="60" />
+  <EvidenceImage :id="61" />
+  <EvidenceImage :id="62" />
+  <EvidenceImage :id="63" />
 </div>
 
 ## 06-12 至 07-15：邮箱骚扰、申诉与相互指责
@@ -90,12 +90,12 @@
 
 **对应材料：** `image64`–`image69`
 <div class="event-images" aria-label="原始材料 image64 至 image69">
-  <a href="../../evidence/image64.jpg"><img src="../../evidence/image64.jpg" alt="原始材料 image64" loading="lazy"></a>
-  <a href="../../evidence/image65.jpg"><img src="../../evidence/image65.jpg" alt="原始材料 image65" loading="lazy"></a>
-  <a href="../../evidence/image66.jpg"><img src="../../evidence/image66.jpg" alt="原始材料 image66" loading="lazy"></a>
-  <a href="../../evidence/image67.jpeg"><img src="../../evidence/image67.jpeg" alt="原始材料 image67" loading="lazy"></a>
-  <a href="../../evidence/image68.png"><img src="../../evidence/image68.png" alt="原始材料 image68" loading="lazy"></a>
-  <a href="../../evidence/image69.jpeg"><img src="../../evidence/image69.jpeg" alt="原始材料 image69" loading="lazy"></a>
+  <EvidenceImage :id="64" />
+  <EvidenceImage :id="65" />
+  <EvidenceImage :id="66" />
+  <EvidenceImage :id="67" />
+  <EvidenceImage :id="68" />
+  <EvidenceImage :id="69" />
 </div>
 
 ## 07-14：白牛被移出二群
@@ -106,10 +106,10 @@
 
 **对应材料：** `image70`–`image73`
 <div class="event-images" aria-label="原始材料 image70 至 image73">
-  <a href="../../evidence/image70.png"><img src="../../evidence/image70.png" alt="原始材料 image70" loading="lazy"></a>
-  <a href="../../evidence/image71.jpeg"><img src="../../evidence/image71.jpeg" alt="原始材料 image71" loading="lazy"></a>
-  <a href="../../evidence/image72.png"><img src="../../evidence/image72.png" alt="原始材料 image72" loading="lazy"></a>
-  <a href="../../evidence/image73.png"><img src="../../evidence/image73.png" alt="原始材料 image73" loading="lazy"></a>
+  <EvidenceImage :id="70" />
+  <EvidenceImage :id="71" />
+  <EvidenceImage :id="72" />
+  <EvidenceImage :id="73" />
 </div>
 
 ## 07-19：伊隐开播“全员逃走中”
@@ -128,15 +128,15 @@
 
 **对应材料：** `image74`–`image82`
 <div class="event-images" aria-label="原始材料 image74 至 image82">
-  <a href="../../evidence/image74.jpeg"><img src="../../evidence/image74.jpeg" alt="原始材料 image74" loading="lazy"></a>
-  <a href="../../evidence/image75.jpeg"><img src="../../evidence/image75.jpeg" alt="原始材料 image75" loading="lazy"></a>
-  <a href="../../evidence/image76.jpeg"><img src="../../evidence/image76.jpeg" alt="原始材料 image76" loading="lazy"></a>
-  <a href="../../evidence/image77.jpeg"><img src="../../evidence/image77.jpeg" alt="原始材料 image77" loading="lazy"></a>
-  <a href="../../evidence/image78.jpeg"><img src="../../evidence/image78.jpeg" alt="原始材料 image78" loading="lazy"></a>
-  <a href="../../evidence/image79.jpeg"><img src="../../evidence/image79.jpeg" alt="原始材料 image79" loading="lazy"></a>
-  <a href="../../evidence/image80.jpeg"><img src="../../evidence/image80.jpeg" alt="原始材料 image80" loading="lazy"></a>
-  <a href="../../evidence/image81.jpeg"><img src="../../evidence/image81.jpeg" alt="原始材料 image81" loading="lazy"></a>
-  <a href="../../evidence/image82.jpeg"><img src="../../evidence/image82.jpeg" alt="原始材料 image82" loading="lazy"></a>
+  <EvidenceImage :id="74" />
+  <EvidenceImage :id="75" />
+  <EvidenceImage :id="76" />
+  <EvidenceImage :id="77" />
+  <EvidenceImage :id="78" />
+  <EvidenceImage :id="79" />
+  <EvidenceImage :id="80" />
+  <EvidenceImage :id="81" />
+  <EvidenceImage :id="82" />
 </div>
 
 ## 07-25：大群管理事件
@@ -155,61 +155,61 @@
 
 **对应材料：** `image83`–`image137`
 <div class="event-images" aria-label="原始材料 image83 至 image137">
-  <a href="../../evidence/image83.jpeg"><img src="../../evidence/image83.jpeg" alt="原始材料 image83" loading="lazy"></a>
-  <a href="../../evidence/image84.jpeg"><img src="../../evidence/image84.jpeg" alt="原始材料 image84" loading="lazy"></a>
-  <a href="../../evidence/image85.png"><img src="../../evidence/image85.png" alt="原始材料 image85" loading="lazy"></a>
-  <a href="../../evidence/image86.jpeg"><img src="../../evidence/image86.jpeg" alt="原始材料 image86" loading="lazy"></a>
-  <a href="../../evidence/image87.jpeg"><img src="../../evidence/image87.jpeg" alt="原始材料 image87" loading="lazy"></a>
-  <a href="../../evidence/image88.jpeg"><img src="../../evidence/image88.jpeg" alt="原始材料 image88" loading="lazy"></a>
-  <a href="../../evidence/image89.jpeg"><img src="../../evidence/image89.jpeg" alt="原始材料 image89" loading="lazy"></a>
-  <a href="../../evidence/image90.jpeg"><img src="../../evidence/image90.jpeg" alt="原始材料 image90" loading="lazy"></a>
-  <a href="../../evidence/image91.jpeg"><img src="../../evidence/image91.jpeg" alt="原始材料 image91" loading="lazy"></a>
-  <a href="../../evidence/image92.jpeg"><img src="../../evidence/image92.jpeg" alt="原始材料 image92" loading="lazy"></a>
-  <a href="../../evidence/image93.jpeg"><img src="../../evidence/image93.jpeg" alt="原始材料 image93" loading="lazy"></a>
-  <a href="../../evidence/image94.jpeg"><img src="../../evidence/image94.jpeg" alt="原始材料 image94" loading="lazy"></a>
-  <a href="../../evidence/image95.jpeg"><img src="../../evidence/image95.jpeg" alt="原始材料 image95" loading="lazy"></a>
-  <a href="../../evidence/image96.jpeg"><img src="../../evidence/image96.jpeg" alt="原始材料 image96" loading="lazy"></a>
-  <a href="../../evidence/image97.jpeg"><img src="../../evidence/image97.jpeg" alt="原始材料 image97" loading="lazy"></a>
-  <a href="../../evidence/image98.jpeg"><img src="../../evidence/image98.jpeg" alt="原始材料 image98" loading="lazy"></a>
-  <a href="../../evidence/image99.jpeg"><img src="../../evidence/image99.jpeg" alt="原始材料 image99" loading="lazy"></a>
-  <a href="../../evidence/image100.jpeg"><img src="../../evidence/image100.jpeg" alt="原始材料 image100" loading="lazy"></a>
-  <a href="../../evidence/image101.jpeg"><img src="../../evidence/image101.jpeg" alt="原始材料 image101" loading="lazy"></a>
-  <a href="../../evidence/image102.jpeg"><img src="../../evidence/image102.jpeg" alt="原始材料 image102" loading="lazy"></a>
-  <a href="../../evidence/image103.jpeg"><img src="../../evidence/image103.jpeg" alt="原始材料 image103" loading="lazy"></a>
-  <a href="../../evidence/image104.jpeg"><img src="../../evidence/image104.jpeg" alt="原始材料 image104" loading="lazy"></a>
-  <a href="../../evidence/image105.jpeg"><img src="../../evidence/image105.jpeg" alt="原始材料 image105" loading="lazy"></a>
-  <a href="../../evidence/image106.jpeg"><img src="../../evidence/image106.jpeg" alt="原始材料 image106" loading="lazy"></a>
-  <a href="../../evidence/image107.jpeg"><img src="../../evidence/image107.jpeg" alt="原始材料 image107" loading="lazy"></a>
-  <a href="../../evidence/image108.jpeg"><img src="../../evidence/image108.jpeg" alt="原始材料 image108" loading="lazy"></a>
-  <a href="../../evidence/image109.jpeg"><img src="../../evidence/image109.jpeg" alt="原始材料 image109" loading="lazy"></a>
-  <a href="../../evidence/image110.jpeg"><img src="../../evidence/image110.jpeg" alt="原始材料 image110" loading="lazy"></a>
-  <a href="../../evidence/image111.jpeg"><img src="../../evidence/image111.jpeg" alt="原始材料 image111" loading="lazy"></a>
-  <a href="../../evidence/image112.jpeg"><img src="../../evidence/image112.jpeg" alt="原始材料 image112" loading="lazy"></a>
-  <a href="../../evidence/image113.jpeg"><img src="../../evidence/image113.jpeg" alt="原始材料 image113" loading="lazy"></a>
-  <a href="../../evidence/image114.jpeg"><img src="../../evidence/image114.jpeg" alt="原始材料 image114" loading="lazy"></a>
-  <a href="../../evidence/image115.jpeg"><img src="../../evidence/image115.jpeg" alt="原始材料 image115" loading="lazy"></a>
-  <a href="../../evidence/image116.jpeg"><img src="../../evidence/image116.jpeg" alt="原始材料 image116" loading="lazy"></a>
-  <a href="../../evidence/image117.jpeg"><img src="../../evidence/image117.jpeg" alt="原始材料 image117" loading="lazy"></a>
-  <a href="../../evidence/image118.jpeg"><img src="../../evidence/image118.jpeg" alt="原始材料 image118" loading="lazy"></a>
-  <a href="../../evidence/image119.jpeg"><img src="../../evidence/image119.jpeg" alt="原始材料 image119" loading="lazy"></a>
-  <a href="../../evidence/image120.jpeg"><img src="../../evidence/image120.jpeg" alt="原始材料 image120" loading="lazy"></a>
-  <a href="../../evidence/image121.jpeg"><img src="../../evidence/image121.jpeg" alt="原始材料 image121" loading="lazy"></a>
-  <a href="../../evidence/image122.jpeg"><img src="../../evidence/image122.jpeg" alt="原始材料 image122" loading="lazy"></a>
-  <a href="../../evidence/image123.jpeg"><img src="../../evidence/image123.jpeg" alt="原始材料 image123" loading="lazy"></a>
-  <a href="../../evidence/image124.jpeg"><img src="../../evidence/image124.jpeg" alt="原始材料 image124" loading="lazy"></a>
-  <a href="../../evidence/image125.jpeg"><img src="../../evidence/image125.jpeg" alt="原始材料 image125" loading="lazy"></a>
-  <a href="../../evidence/image126.jpeg"><img src="../../evidence/image126.jpeg" alt="原始材料 image126" loading="lazy"></a>
-  <a href="../../evidence/image127.jpeg"><img src="../../evidence/image127.jpeg" alt="原始材料 image127" loading="lazy"></a>
-  <a href="../../evidence/image128.jpeg"><img src="../../evidence/image128.jpeg" alt="原始材料 image128" loading="lazy"></a>
-  <a href="../../evidence/image129.jpeg"><img src="../../evidence/image129.jpeg" alt="原始材料 image129" loading="lazy"></a>
-  <a href="../../evidence/image130.jpeg"><img src="../../evidence/image130.jpeg" alt="原始材料 image130" loading="lazy"></a>
-  <a href="../../evidence/image131.jpeg"><img src="../../evidence/image131.jpeg" alt="原始材料 image131" loading="lazy"></a>
-  <a href="../../evidence/image132.jpeg"><img src="../../evidence/image132.jpeg" alt="原始材料 image132" loading="lazy"></a>
-  <a href="../../evidence/image133.jpeg"><img src="../../evidence/image133.jpeg" alt="原始材料 image133" loading="lazy"></a>
-  <a href="../../evidence/image134.jpeg"><img src="../../evidence/image134.jpeg" alt="原始材料 image134" loading="lazy"></a>
-  <a href="../../evidence/image135.jpeg"><img src="../../evidence/image135.jpeg" alt="原始材料 image135" loading="lazy"></a>
-  <a href="../../evidence/image136.jpeg"><img src="../../evidence/image136.jpeg" alt="原始材料 image136" loading="lazy"></a>
-  <a href="../../evidence/image137.jpeg"><img src="../../evidence/image137.jpeg" alt="原始材料 image137" loading="lazy"></a>
+  <EvidenceImage :id="83" />
+  <EvidenceImage :id="84" />
+  <EvidenceImage :id="85" />
+  <EvidenceImage :id="86" />
+  <EvidenceImage :id="87" />
+  <EvidenceImage :id="88" />
+  <EvidenceImage :id="89" />
+  <EvidenceImage :id="90" />
+  <EvidenceImage :id="91" />
+  <EvidenceImage :id="92" />
+  <EvidenceImage :id="93" />
+  <EvidenceImage :id="94" />
+  <EvidenceImage :id="95" />
+  <EvidenceImage :id="96" />
+  <EvidenceImage :id="97" />
+  <EvidenceImage :id="98" />
+  <EvidenceImage :id="99" />
+  <EvidenceImage :id="100" />
+  <EvidenceImage :id="101" />
+  <EvidenceImage :id="102" />
+  <EvidenceImage :id="103" />
+  <EvidenceImage :id="104" />
+  <EvidenceImage :id="105" />
+  <EvidenceImage :id="106" />
+  <EvidenceImage :id="107" />
+  <EvidenceImage :id="108" />
+  <EvidenceImage :id="109" />
+  <EvidenceImage :id="110" />
+  <EvidenceImage :id="111" />
+  <EvidenceImage :id="112" />
+  <EvidenceImage :id="113" />
+  <EvidenceImage :id="114" />
+  <EvidenceImage :id="115" />
+  <EvidenceImage :id="116" />
+  <EvidenceImage :id="117" />
+  <EvidenceImage :id="118" />
+  <EvidenceImage :id="119" />
+  <EvidenceImage :id="120" />
+  <EvidenceImage :id="121" />
+  <EvidenceImage :id="122" />
+  <EvidenceImage :id="123" />
+  <EvidenceImage :id="124" />
+  <EvidenceImage :id="125" />
+  <EvidenceImage :id="126" />
+  <EvidenceImage :id="127" />
+  <EvidenceImage :id="128" />
+  <EvidenceImage :id="129" />
+  <EvidenceImage :id="130" />
+  <EvidenceImage :id="131" />
+  <EvidenceImage :id="132" />
+  <EvidenceImage :id="133" />
+  <EvidenceImage :id="134" />
+  <EvidenceImage :id="135" />
+  <EvidenceImage :id="136" />
+  <EvidenceImage :id="137" />
 </div>
 
 ## 07-27：大听歌时代
@@ -220,13 +220,13 @@
 
 **对应材料：** `image138`–`image144`
 <div class="event-images" aria-label="原始材料 image138 至 image144">
-  <a href="../../evidence/image138.jpeg"><img src="../../evidence/image138.jpeg" alt="原始材料 image138" loading="lazy"></a>
-  <a href="../../evidence/image139.jpeg"><img src="../../evidence/image139.jpeg" alt="原始材料 image139" loading="lazy"></a>
-  <a href="../../evidence/image140.jpeg"><img src="../../evidence/image140.jpeg" alt="原始材料 image140" loading="lazy"></a>
-  <a href="../../evidence/image141.jpeg"><img src="../../evidence/image141.jpeg" alt="原始材料 image141" loading="lazy"></a>
-  <a href="../../evidence/image142.jpeg"><img src="../../evidence/image142.jpeg" alt="原始材料 image142" loading="lazy"></a>
-  <a href="../../evidence/image143.jpeg"><img src="../../evidence/image143.jpeg" alt="原始材料 image143" loading="lazy"></a>
-  <a href="../../evidence/image144.jpeg"><img src="../../evidence/image144.jpeg" alt="原始材料 image144" loading="lazy"></a>
+  <EvidenceImage :id="138" />
+  <EvidenceImage :id="139" />
+  <EvidenceImage :id="140" />
+  <EvidenceImage :id="141" />
+  <EvidenceImage :id="142" />
+  <EvidenceImage :id="143" />
+  <EvidenceImage :id="144" />
 </div>
 
 ## 07-29 至 08-07：K 与“啸山夭”账号争议
@@ -239,12 +239,12 @@ Minecraft_lzz 想询问“啸山夭”在上次被移出前做过什么，作为
 
 **对应材料：** `image145`–`image150`
 <div class="event-images" aria-label="原始材料 image145 至 image150">
-  <a href="../../evidence/image145.jpeg"><img src="../../evidence/image145.jpeg" alt="原始材料 image145" loading="lazy"></a>
-  <a href="../../evidence/image146.jpeg"><img src="../../evidence/image146.jpeg" alt="原始材料 image146" loading="lazy"></a>
-  <a href="../../evidence/image147.jpeg"><img src="../../evidence/image147.jpeg" alt="原始材料 image147" loading="lazy"></a>
-  <a href="../../evidence/image148.png"><img src="../../evidence/image148.png" alt="原始材料 image148" loading="lazy"></a>
-  <a href="../../evidence/image149.jpeg"><img src="../../evidence/image149.jpeg" alt="原始材料 image149" loading="lazy"></a>
-  <a href="../../evidence/image150.jpeg"><img src="../../evidence/image150.jpeg" alt="原始材料 image150" loading="lazy"></a>
+  <EvidenceImage :id="145" />
+  <EvidenceImage :id="146" />
+  <EvidenceImage :id="147" />
+  <EvidenceImage :id="148" />
+  <EvidenceImage :id="149" />
+  <EvidenceImage :id="150" />
 </div>
 
 ## 本章回看：双群稳定表象下的反复协商

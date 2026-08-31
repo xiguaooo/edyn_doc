@@ -1,14 +1,17 @@
 import { defineConfig } from 'vitepress'
 
+const base = process.env.VITEPRESS_BASE || '/'
+
 export default defineConfig({
   lang: 'zh-CN',
   title: '伊甸园史记',
   description: '2026 年群聊档案',
-  base: process.env.VITEPRESS_BASE || '/',
+  base,
   cleanUrls: true,
   head: [
     ['meta', { name: 'theme-color', content: '#1f5a54' }],
-    ['meta', { name: 'author', content: '伊甸园史记整理组' }]
+    ['meta', { name: 'author', content: '伊甸园史记整理组' }],
+    ['link', { rel: 'icon', href: `${base}mark.svg` }]
   ],
   themeConfig: {
     logo: '/mark.svg',

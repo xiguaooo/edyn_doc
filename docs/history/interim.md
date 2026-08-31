@@ -13,9 +13,9 @@
 
 **对应材料：** `image42`–`image44`
 <div class="event-images" aria-label="原始材料 image42 至 image44">
-  <a href="../../evidence/image42.png"><img src="../../evidence/image42.png" alt="原始材料 image42" loading="lazy"></a>
-  <a href="../../evidence/image43.jpeg"><img src="../../evidence/image43.jpeg" alt="原始材料 image43" loading="lazy"></a>
-  <a href="../../evidence/image44.jpeg"><img src="../../evidence/image44.jpeg" alt="原始材料 image44" loading="lazy"></a>
+  <EvidenceImage :id="42" />
+  <EvidenceImage :id="43" />
+  <EvidenceImage :id="44" />
 </div>
 
 ## 02-18：神人初现与管理增补
@@ -26,7 +26,7 @@
 
 **对应材料：** `image45`
 <div class="event-images" aria-label="原始材料 image45">
-  <a href="../../evidence/image45.jpeg"><img src="../../evidence/image45.jpeg" alt="原始材料 image45" loading="lazy"></a>
+  <EvidenceImage :id="45" />
 </div>
 
 ## 02-23 至 04-26：全员指挥官与改名热潮
@@ -57,7 +57,7 @@
 
 **对应材料：** `image46`
 <div class="event-images" aria-label="原始材料 image46">
-  <a href="../../evidence/image46.jpeg"><img src="../../evidence/image46.jpeg" alt="原始材料 image46" loading="lazy"></a>
+  <EvidenceImage :id="46" />
 </div>
 
 ## 02-21：啸再次被移出二群
@@ -67,9 +67,9 @@
 在原稿的语气里，这是“第二伊甸园少了一个神人”的传说性时刻；换成档案语言，它记录的是一次由玩笑、辱骂和管理处置组成的快速冲突。  
 **对应材料：** `image47`–`image49`
 <div class="event-images" aria-label="原始材料 image47 至 image49">
-  <a href="../../evidence/image47.png"><img src="../../evidence/image47.png" alt="原始材料 image47" loading="lazy"></a>
-  <a href="../../evidence/image48.png"><img src="../../evidence/image48.png" alt="原始材料 image48" loading="lazy"></a>
-  <a href="../../evidence/image49.png"><img src="../../evidence/image49.png" alt="原始材料 image49" loading="lazy"></a>
+  <EvidenceImage :id="47" />
+  <EvidenceImage :id="48" />
+  <EvidenceImage :id="49" />
 </div>
 
 ## 02-23 至 02-24：伊隐被“背刺”的讨论
@@ -82,8 +82,8 @@
 
 **对应材料：** `image50`–`image51`
 <div class="event-images" aria-label="原始材料 image50 至 image51">
-  <a href="../../evidence/image50.jpeg"><img src="../../evidence/image50.jpeg" alt="原始材料 image50" loading="lazy"></a>
-  <a href="../../evidence/image51.png"><img src="../../evidence/image51.png" alt="原始材料 image51" loading="lazy"></a>
+  <EvidenceImage :id="50" />
+  <EvidenceImage :id="51" />
 </div>
 
 ## 阶段结语：临时并不等于短暂

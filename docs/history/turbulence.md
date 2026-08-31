@@ -19,15 +19,15 @@
 
 **对应材料：** `image151`–`image159`
 <div class="event-images" aria-label="原始材料 image151 至 image159">
-  <a href="../../evidence/image151.jpeg"><img src="../../evidence/image151.jpeg" alt="原始材料 image151" loading="lazy"></a>
-  <a href="../../evidence/image152.jpeg"><img src="../../evidence/image152.jpeg" alt="原始材料 image152" loading="lazy"></a>
-  <a href="../../evidence/image153.jpeg"><img src="../../evidence/image153.jpeg" alt="原始材料 image153" loading="lazy"></a>
-  <a href="../../evidence/image154.jpeg"><img src="../../evidence/image154.jpeg" alt="原始材料 image154" loading="lazy"></a>
-  <a href="../../evidence/image155.jpeg"><img src="../../evidence/image155.jpeg" alt="原始材料 image155" loading="lazy"></a>
-  <a href="../../evidence/image156.jpeg"><img src="../../evidence/image156.jpeg" alt="原始材料 image156" loading="lazy"></a>
-  <a href="../../evidence/image157.jpeg"><img src="../../evidence/image157.jpeg" alt="原始材料 image157" loading="lazy"></a>
-  <a href="../../evidence/image158.jpeg"><img src="../../evidence/image158.jpeg" alt="原始材料 image158" loading="lazy"></a>
-  <a href="../../evidence/image159.jpeg"><img src="../../evidence/image159.jpeg" alt="原始材料 image159" loading="lazy"></a>
+  <EvidenceImage :id="151" />
+  <EvidenceImage :id="152" />
+  <EvidenceImage :id="153" />
+  <EvidenceImage :id="154" />
+  <EvidenceImage :id="155" />
+  <EvidenceImage :id="156" />
+  <EvidenceImage :id="157" />
+  <EvidenceImage :id="158" />
+  <EvidenceImage :id="159" />
 </div>
 
 ## 08-06：新伊甸园重建
@@ -38,9 +38,9 @@
 
 **对应材料：** `image160`–`image162`
 <div class="event-images" aria-label="原始材料 image160 至 image162">
-  <a href="../../evidence/image160.png"><img src="../../evidence/image160.png" alt="原始材料 image160" loading="lazy"></a>
-  <a href="../../evidence/image161.png"><img src="../../evidence/image161.png" alt="原始材料 image161" loading="lazy"></a>
-  <a href="../../evidence/image162.png"><img src="../../evidence/image162.png" alt="原始材料 image162" loading="lazy"></a>
+  <EvidenceImage :id="160" />
+  <EvidenceImage :id="161" />
+  <EvidenceImage :id="162" />
 </div>
 
 ## 08-07：桃十一事件的导火索
@@ -59,7 +59,7 @@
 
 **对应材料：** `image163`
 <div class="event-images" aria-label="原始材料 image163">
-  <a href="../../evidence/image163.jpeg"><img src="../../evidence/image163.jpeg" alt="原始材料 image163" loading="lazy"></a>
+  <EvidenceImage :id="163" />
 </div>
 
 ## 08-09：第一、第二次反转
@@ -70,13 +70,13 @@
 
 **对应材料：** `image164`–`image170`
 <div class="event-images" aria-label="原始材料 image164 至 image170">
-  <a href="../../evidence/image164.jpeg"><img src="../../evidence/image164.jpeg" alt="原始材料 image164" loading="lazy"></a>
-  <a href="../../evidence/image165.jpeg"><img src="../../evidence/image165.jpeg" alt="原始材料 image165" loading="lazy"></a>
-  <a href="../../evidence/image166.jpeg"><img src="../../evidence/image166.jpeg" alt="原始材料 image166" loading="lazy"></a>
-  <a href="../../evidence/image167.jpeg"><img src="../../evidence/image167.jpeg" alt="原始材料 image167" loading="lazy"></a>
-  <a href="../../evidence/image168.jpeg"><img src="../../evidence/image168.jpeg" alt="原始材料 image168" loading="lazy"></a>
-  <a href="../../evidence/image169.jpeg"><img src="../../evidence/image169.jpeg" alt="原始材料 image169" loading="lazy"></a>
-  <a href="../../evidence/image170.jpeg"><img src="../../evidence/image170.jpeg" alt="原始材料 image170" loading="lazy"></a>
+  <EvidenceImage :id="164" />
+  <EvidenceImage :id="165" />
+  <EvidenceImage :id="166" />
+  <EvidenceImage :id="167" />
+  <EvidenceImage :id="168" />
+  <EvidenceImage :id="169" />
+  <EvidenceImage :id="170" />
 </div>
 
 ### 16:00：反桃潮、群号扩散与全体禁言
@@ -87,11 +87,11 @@ Minecraft_lzz 加入桃粉丝群后不久开启全体禁言；发现禁言长时
 
 **对应材料：** `image171`–`image175`
 <div class="event-images" aria-label="原始材料 image171 至 image175">
-  <a href="../../evidence/image171.jpeg"><img src="../../evidence/image171.jpeg" alt="原始材料 image171" loading="lazy"></a>
-  <a href="../../evidence/image172.png"><img src="../../evidence/image172.png" alt="原始材料 image172" loading="lazy"></a>
-  <a href="../../evidence/image173.jpeg"><img src="../../evidence/image173.jpeg" alt="原始材料 image173" loading="lazy"></a>
-  <a href="../../evidence/image174.jpeg"><img src="../../evidence/image174.jpeg" alt="原始材料 image174" loading="lazy"></a>
-  <a href="../../evidence/image175.jpeg"><img src="../../evidence/image175.jpeg" alt="原始材料 image175" loading="lazy"></a>
+  <EvidenceImage :id="171" />
+  <EvidenceImage :id="172" />
+  <EvidenceImage :id="173" />
+  <EvidenceImage :id="174" />
+  <EvidenceImage :id="175" />
 </div>
 
 ### 17:00：后悔、安慰与药物威胁说法
@@ -110,11 +110,11 @@ Minecraft_lzz 加入桃粉丝群后不久开启全体禁言；发现禁言长时
 
 **对应材料：** `image176`–`image180`
 <div class="event-images" aria-label="原始材料 image176 至 image180">
-  <a href="../../evidence/image176.jpeg"><img src="../../evidence/image176.jpeg" alt="原始材料 image176" loading="lazy"></a>
-  <a href="../../evidence/image177.jpeg"><img src="../../evidence/image177.jpeg" alt="原始材料 image177" loading="lazy"></a>
-  <a href="../../evidence/image178.png"><img src="../../evidence/image178.png" alt="原始材料 image178" loading="lazy"></a>
-  <a href="../../evidence/image179.jpeg"><img src="../../evidence/image179.jpeg" alt="原始材料 image179" loading="lazy"></a>
-  <a href="../../evidence/image180.jpeg"><img src="../../evidence/image180.jpeg" alt="原始材料 image180" loading="lazy"></a>
+  <EvidenceImage :id="176" />
+  <EvidenceImage :id="177" />
+  <EvidenceImage :id="178" />
+  <EvidenceImage :id="179" />
+  <EvidenceImage :id="180" />
 </div>
 
 ## 08-10：道歉、潜伏与二群是否移除伊隐
@@ -133,11 +133,11 @@ Minecraft_lzz 和几名成员进入桃粉丝群“潜伏”获取消息。lzz �
 
 **对应材料：** `image181`–`image185`
 <div class="event-images" aria-label="原始材料 image181 至 image185">
-  <a href="../../evidence/image181.jpeg"><img src="../../evidence/image181.jpeg" alt="原始材料 image181" loading="lazy"></a>
-  <a href="../../evidence/image182.jpeg"><img src="../../evidence/image182.jpeg" alt="原始材料 image182" loading="lazy"></a>
-  <a href="../../evidence/image183.jpeg"><img src="../../evidence/image183.jpeg" alt="原始材料 image183" loading="lazy"></a>
-  <a href="../../evidence/image184.jpeg"><img src="../../evidence/image184.jpeg" alt="原始材料 image184" loading="lazy"></a>
-  <a href="../../evidence/image185.jpeg"><img src="../../evidence/image185.jpeg" alt="原始材料 image185" loading="lazy"></a>
+  <EvidenceImage :id="181" />
+  <EvidenceImage :id="182" />
+  <EvidenceImage :id="183" />
+  <EvidenceImage :id="184" />
+  <EvidenceImage :id="185" />
 </div>
 
 ## 08-10 晚间：二群里的“不要再提桃”
@@ -150,8 +150,8 @@ HXH 当着伊隐的面重复了一遍相关话语，带有讽刺意味；lzz 看
 
 **对应材料：** `image186`–`image187`
 <div class="event-images" aria-label="原始材料 image186 至 image187">
-  <a href="../../evidence/image186.jpeg"><img src="../../evidence/image186.jpeg" alt="原始材料 image186" loading="lazy"></a>
-  <a href="../../evidence/image187.jpeg"><img src="../../evidence/image187.jpeg" alt="原始材料 image187" loading="lazy"></a>
+  <EvidenceImage :id="186" />
+  <EvidenceImage :id="187" />
 </div>
 
 ## 08-11：反串、F 与小号
@@ -164,9 +164,9 @@ HXH 当着伊隐的面重复了一遍相关话语，带有讽刺意味；lzz 看
 
 **对应材料：** `image188`–`image190`
 <div class="event-images" aria-label="原始材料 image188 至 image190">
-  <a href="../../evidence/image188.png"><img src="../../evidence/image188.png" alt="原始材料 image188" loading="lazy"></a>
-  <a href="../../evidence/image189.png"><img src="../../evidence/image189.png" alt="原始材料 image189" loading="lazy"></a>
-  <a href="../../evidence/image190.png"><img src="../../evidence/image190.png" alt="原始材料 image190" loading="lazy"></a>
+  <EvidenceImage :id="188" />
+  <EvidenceImage :id="189" />
+  <EvidenceImage :id="190" />
 </div>
 
 ## 08-13 至 08-15：定时动态、移出与还款声明
@@ -179,22 +179,22 @@ HXH 当着伊隐的面重复了一遍相关话语，带有讽刺意味；lzz 看
 
 **对应材料：** `image191`–`image206`
 <div class="event-images" aria-label="原始材料 image191 至 image206">
-  <a href="../../evidence/image191.jpeg"><img src="../../evidence/image191.jpeg" alt="原始材料 image191" loading="lazy"></a>
-  <a href="../../evidence/image192.jpeg"><img src="../../evidence/image192.jpeg" alt="原始材料 image192" loading="lazy"></a>
-  <a href="../../evidence/image193.jpeg"><img src="../../evidence/image193.jpeg" alt="原始材料 image193" loading="lazy"></a>
-  <a href="../../evidence/image194.jpeg"><img src="../../evidence/image194.jpeg" alt="原始材料 image194" loading="lazy"></a>
-  <a href="../../evidence/image195.jpeg"><img src="../../evidence/image195.jpeg" alt="原始材料 image195" loading="lazy"></a>
-  <a href="../../evidence/image196.jpeg"><img src="../../evidence/image196.jpeg" alt="原始材料 image196" loading="lazy"></a>
-  <a href="../../evidence/image197.jpeg"><img src="../../evidence/image197.jpeg" alt="原始材料 image197" loading="lazy"></a>
-  <a href="../../evidence/image198.jpeg"><img src="../../evidence/image198.jpeg" alt="原始材料 image198" loading="lazy"></a>
-  <a href="../../evidence/image199.jpeg"><img src="../../evidence/image199.jpeg" alt="原始材料 image199" loading="lazy"></a>
-  <a href="../../evidence/image200.png"><img src="../../evidence/image200.png" alt="原始材料 image200" loading="lazy"></a>
-  <a href="../../evidence/image201.png"><img src="../../evidence/image201.png" alt="原始材料 image201" loading="lazy"></a>
-  <a href="../../evidence/image202.png"><img src="../../evidence/image202.png" alt="原始材料 image202" loading="lazy"></a>
-  <a href="../../evidence/image203.png"><img src="../../evidence/image203.png" alt="原始材料 image203" loading="lazy"></a>
-  <a href="../../evidence/image204.jpeg"><img src="../../evidence/image204.jpeg" alt="原始材料 image204" loading="lazy"></a>
-  <a href="../../evidence/image205.png"><img src="../../evidence/image205.png" alt="原始材料 image205" loading="lazy"></a>
-  <a href="../../evidence/image206.png"><img src="../../evidence/image206.png" alt="原始材料 image206" loading="lazy"></a>
+  <EvidenceImage :id="191" />
+  <EvidenceImage :id="192" />
+  <EvidenceImage :id="193" />
+  <EvidenceImage :id="194" />
+  <EvidenceImage :id="195" />
+  <EvidenceImage :id="196" />
+  <EvidenceImage :id="197" />
+  <EvidenceImage :id="198" />
+  <EvidenceImage :id="199" />
+  <EvidenceImage :id="200" />
+  <EvidenceImage :id="201" />
+  <EvidenceImage :id="202" />
+  <EvidenceImage :id="203" />
+  <EvidenceImage :id="204" />
+  <EvidenceImage :id="205" />
+  <EvidenceImage :id="206" />
 </div>
 
 ## 08-17：关系破裂与第六次反转
@@ -207,10 +207,10 @@ HXH 当着伊隐的面重复了一遍相关话语，带有讽刺意味；lzz 看
 
 **对应材料：** `image207`–`image210`
 <div class="event-images" aria-label="原始材料 image207 至 image210">
-  <a href="../../evidence/image207.jpeg"><img src="../../evidence/image207.jpeg" alt="原始材料 image207" loading="lazy"></a>
-  <a href="../../evidence/image208.jpeg"><img src="../../evidence/image208.jpeg" alt="原始材料 image208" loading="lazy"></a>
-  <a href="../../evidence/image209.jpeg"><img src="../../evidence/image209.jpeg" alt="原始材料 image209" loading="lazy"></a>
-  <a href="../../evidence/image210.jpeg"><img src="../../evidence/image210.jpeg" alt="原始材料 image210" loading="lazy"></a>
+  <EvidenceImage :id="207" />
+  <EvidenceImage :id="208" />
+  <EvidenceImage :id="209" />
+  <EvidenceImage :id="210" />
 </div>
 
 ## 08-25 至 08-26：阶段性收束
@@ -221,15 +221,15 @@ HXH 当着伊隐的面重复了一遍相关话语，带有讽刺意味；lzz 看
 
 **对应材料：** `image211`–`image219`
 <div class="event-images" aria-label="原始材料 image211 至 image219">
-  <a href="../../evidence/image211.png"><img src="../../evidence/image211.png" alt="原始材料 image211" loading="lazy"></a>
-  <a href="../../evidence/image212.jpeg"><img src="../../evidence/image212.jpeg" alt="原始材料 image212" loading="lazy"></a>
-  <a href="../../evidence/image213.jpeg"><img src="../../evidence/image213.jpeg" alt="原始材料 image213" loading="lazy"></a>
-  <a href="../../evidence/image214.jpeg"><img src="../../evidence/image214.jpeg" alt="原始材料 image214" loading="lazy"></a>
-  <a href="../../evidence/image215.jpeg"><img src="../../evidence/image215.jpeg" alt="原始材料 image215" loading="lazy"></a>
-  <a href="../../evidence/image216.jpeg"><img src="../../evidence/image216.jpeg" alt="原始材料 image216" loading="lazy"></a>
-  <a href="../../evidence/image217.png"><img src="../../evidence/image217.png" alt="原始材料 image217" loading="lazy"></a>
-  <a href="../../evidence/image218.png"><img src="../../evidence/image218.png" alt="原始材料 image218" loading="lazy"></a>
-  <a href="../../evidence/image219.png"><img src="../../evidence/image219.png" alt="原始材料 image219" loading="lazy"></a>
+  <EvidenceImage :id="211" />
+  <EvidenceImage :id="212" />
+  <EvidenceImage :id="213" />
+  <EvidenceImage :id="214" />
+  <EvidenceImage :id="215" />
+  <EvidenceImage :id="216" />
+  <EvidenceImage :id="217" />
+  <EvidenceImage :id="218" />
+  <EvidenceImage :id="219" />
 </div>
 
 ## 本章回看：六次反转背后的结构问题

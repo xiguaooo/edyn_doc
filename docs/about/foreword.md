@@ -5,7 +5,7 @@
 以下内容按底本前言整理，保留两位整理者对这部史记的自述。
 
 <div class="event-images" aria-label="原始材料 image1">
-  <a href="../../evidence/image1.jpeg"><img src="../../evidence/image1.jpeg" alt="原始材料 image1" loading="lazy"></a>
+  <EvidenceImage :id="1" />
 </div>
 
 Minecraft_lzz 在 2026 年 1 月偶然于其他 UP 主的粉丝群发现伊隐，随后在哔哩哔哩找到伊隐并加上 QQ。1 月 17 日，经伊隐邀请进入伊隐粉丝群（伊甸园）。在之后七个多月里，lzz 见证了群中的多件大事，并把记录截图保存下来，最终根据这些材料整理成《伊甸园史记》。

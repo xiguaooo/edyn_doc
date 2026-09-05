@@ -1,6 +1,10 @@
 ---
-prev: /evidence/
-next: /about/foreword
+prev:
+  text: 截图档案
+  link: /evidence/
+next:
+  text: 前言与鸣谢
+  link: /about/foreword
 ---
 
 # 群体与称呼

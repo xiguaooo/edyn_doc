@@ -26,6 +26,10 @@ npm run docs:preview     # preview the production build locally
 
 There is currently no separate unit-test or lint script. Always run `npm run docs:build` before submitting documentation or theme changes.
 
+## Changelog Requirement
+
+Every user-visible update must also update `docs/changelog.md` in the same commit. Add a dated entry that names the affected pages or components, summarizes the behavior change, and records the validation command when relevant. Keep the changelog in reverse chronological order and do not wait for a later cleanup commit.
+
 ## Coding Style & Naming Conventions
 
 Use UTF-8 Markdown with concise Chinese prose. Keep headings descriptive and use ATX headings (`#`, `##`). Use two spaces for nested Markdown indentation. History image references should use `<EvidenceImage :id="N" />`; preserve sequential image IDs and original file extensions. Vue/TypeScript components use PascalCase filenames, while utility modules use lowercase or descriptive camelCase names. Match the existing VitePress and Vue style before introducing abstractions.

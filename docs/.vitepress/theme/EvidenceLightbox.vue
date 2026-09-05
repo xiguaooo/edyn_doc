@@ -5,6 +5,7 @@ import { evidenceSource } from './evidence'
 type Evidence = { src: string; label: string; id?: number }
 
 const TOTAL = 219
+const MIN_ZOOM = 0.25
 
 const selected = ref<Evidence | null>(null)
 const currentId = ref(1)
@@ -52,7 +53,7 @@ function close() {
 }
 
 function adjustZoom(amount: number) {
-  zoom.value = Math.min(3, Math.max(0.5, Math.round((zoom.value + amount) * 100) / 100))
+  zoom.value = Math.min(3, Math.max(MIN_ZOOM, Math.round((zoom.value + amount) * 100) / 100))
 }
 
 function navigate(delta: number) {
@@ -133,7 +134,16 @@ onBeforeUnmount(() => {
           @pointerup="onPointerUp"
           @pointercancel="onPointerUp"
         >
-          <img :src="selected.src" :alt="selected.label" draggable="false" :style="{ width: `${zoom * 100}%` }" />
+          <img
+            :src="selected.src"
+            :alt="selected.label"
+            draggable="false"
+            :style="{
+              width: `${zoom * 100}%`,
+              maxWidth: zoom <= 1 ? '100%' : 'none',
+              maxHeight: zoom <= 1 ? '100%' : 'none'
+            }"
+          />
         </div>
         <button type="button" class="lb-arrow lb-next" title="下一张（→）" aria-label="下一张" @click="navigate(1)">→</button>
       </div>

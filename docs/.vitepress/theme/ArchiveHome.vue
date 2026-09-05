@@ -1,52 +1,113 @@
 <script setup lang="ts">
+import { onMounted } from 'vue'
 import { withBase } from 'vitepress'
 
 const link = (path: string) => withBase(path)
+
+const chapters = [
+  { juan: '卷一', date: '01.17 — 02.13', title: '最初伊甸园', desc: '建群、开放、人数破千，然后第一次被封。', href: '/history/origin', color: 'green' },
+  { juan: '卷二', date: '02.13 — 02.28', title: '临时伊甸园', desc: '大群没了的十五天，临时群成了主阵地。', href: '/history/interim', color: 'gold' },
+  { juan: '卷三', date: '02.28 — 08.05', title: '伊甸园重生', desc: '解封后的半年：日常、直播，和一场管理风波。', href: '/history/rebirth', color: 'blue' },
+  { juan: '卷四', date: '08.06 — 08.30', title: '伊甸园动荡', desc: '凌晨解散、重建新群，桃十一事件六次反转。', href: '/history/turbulence', color: 'red' }
+]
+
+const doors = [
+  { no: '01', title: '总时间线', desc: '哪天发生了什么，一行一条。', href: '/timeline' },
+  { no: '02', title: '截图档案', desc: '219 张原图，按编号查。', href: '/evidence/' },
+  { no: '03', title: '群体与称呼', desc: '大群、二群、临时群，先分清再读。', href: '/about/structure' },
+  { no: '04', title: '前言与鸣谢', desc: '这部史记是怎么攒出来的。', href: '/about/foreword' }
+]
+
+onMounted(() => {
+  const io = new IntersectionObserver((entries) => {
+    for (const entry of entries) {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('revealed')
+        io.unobserve(entry.target)
+      }
+    }
+  }, { threshold: 0.12 })
+  document.querySelectorAll('[data-reveal]').forEach((el) => io.observe(el))
+})
 </script>
 
 <template>
   <main class="archive-home">
-    <header class="archive-masthead">
-      <p class="archive-eyebrow">伊甸园群聊档案 / 2026.01 - 2026.08</p>
-      <div class="archive-heading">
-        <h1>伊甸园史记</h1>
-        <p>把散落的群聊记录、截图与转折，整理成一条可以回看的时间线。</p>
+    <div class="watermark" aria-hidden="true">史</div>
+    <p class="spine" aria-hidden="true">伊甸园群聊存档 · 二〇二六</p>
+
+    <header class="hero">
+      <p class="eyebrow rise"><i class="sq" aria-hidden="true"></i>伊甸园群聊存档 · 2026.01 — 2026.08</p>
+      <div class="hero-grid">
+        <div class="hero-title rise d1">
+          <h1>伊甸园史记</h1>
+          <span class="seal" aria-hidden="true"><i>史</i><i>记</i></span>
+        </div>
+        <div class="hero-side rise d2">
+          <p class="hero-desc">一个粉丝群的七个多月：建群、扩张、被封、重建，到最后散伙。有人把每天的聊天都截了图，前后攒下一万多张。这里留下筛出来的部分，按日子排好，原图未打码。</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" :href="link('/timeline')">从时间线读起<span class="arr" aria-hidden="true">→</span></a>
+            <a class="btn btn-ghost" :href="link('/history/origin')">读四个章节</a>
+            <a class="btn btn-text" :href="link('/evidence/')">直接看截图<span class="arr" aria-hidden="true">→</span></a>
+          </div>
+        </div>
       </div>
-      <div class="archive-actions">
-        <a class="archive-primary-link" :href="link('/timeline')">从时间线开始 <span>→</span></a>
-        <a class="archive-secondary-link" :href="link('/evidence/')">打开截图档案</a>
-      </div>
-      <dl class="archive-facts">
-        <div><dt>记录范围</dt><dd>01.17 - 08.30</dd></div>
-        <div><dt>原始截图</dt><dd>219 张</dd></div>
-        <div><dt>历史阶段</dt><dd>4 段</dd></div>
+      <dl class="hero-facts rise d3">
+        <div><dt>记录起点</dt><dd>2026.01.17</dd></div>
+        <div><dt>本版截止</dt><dd>2026.08.30</dd></div>
+        <div><dt>收录截图</dt><dd>219 张</dd></div>
+        <div><dt>全史</dt><dd>四卷</dd></div>
       </dl>
     </header>
 
-    <section class="archive-route" aria-labelledby="route-title">
-      <div class="archive-section-head">
-        <p>按时间进入</p>
-        <h2 id="route-title">四段群史，一条主线</h2>
+    <section class="chapters" aria-labelledby="chapters-title">
+      <div class="section-head" data-reveal>
+        <div>
+          <p class="kicker">按顺序读</p>
+          <h2 id="chapters-title">四个阶段</h2>
+        </div>
+        <p class="head-note">四卷，按时间先后排。</p>
       </div>
-      <ol class="archive-periods">
-        <li class="period-origin"><a :href="link('/history/origin')"><span>01.17 - 02.13</span><strong>最初伊甸园</strong><em>开放、扩张、封禁</em></a></li>
-        <li class="period-interim"><a :href="link('/history/interim')"><span>02.13 - 02.28</span><strong>临时伊甸园</strong><em>分流、二群成形</em></a></li>
-        <li class="period-rebirth"><a :href="link('/history/rebirth')"><span>02.28 - 08.05</span><strong>伊甸园重生</strong><em>解封、日常、管理</em></a></li>
-        <li class="period-turbulence"><a :href="link('/history/turbulence')"><span>08.06 - 08.30</span><strong>伊甸园动荡</strong><em>解散、重建、争议</em></a></li>
+      <ol class="chapter-list">
+        <li v-for="(c, i) in chapters" :key="c.href">
+          <a
+            class="chapter-row"
+            :class="`ch-${c.color}`"
+            :href="link(c.href)"
+            data-reveal
+            :style="{ '--d': `${i * 70}ms` }"
+          >
+            <span class="ch-meta"><i class="juan">{{ c.juan }}</i><time>{{ c.date }}</time></span>
+            <span class="ch-body"><strong>{{ c.title }}</strong><em>{{ c.desc }}</em></span>
+            <span class="ch-arr" aria-hidden="true">→</span>
+          </a>
+        </li>
       </ol>
     </section>
 
-    <section class="archive-index" aria-labelledby="index-title">
-      <div class="archive-section-head">
-        <p>按材料进入</p>
-        <h2 id="index-title">先读叙述，也能直接核对</h2>
+    <section class="doors" aria-labelledby="doors-title">
+      <div class="section-head" data-reveal>
+        <div>
+          <p class="kicker">顺手可查</p>
+          <h2 id="doors-title">其他入口</h2>
+        </div>
       </div>
-      <div class="archive-index-list">
-        <a :href="link('/timeline')"><span>总时间线</span><small>按日期定位每个转折</small><b>01</b></a>
-        <a :href="link('/evidence/')"><span>截图档案</span><small>219 张原始材料，可筛选与放大</small><b>02</b></a>
-        <a :href="link('/about/structure')"><span>群体与称呼</span><small>大群、二群与管理变动索引</small><b>03</b></a>
-        <a :href="link('/about/foreword')"><span>前言与作者的话</span><small>史料收集、整理与版本说明</small><b>04</b></a>
+      <div class="doors-grid">
+        <a
+          v-for="(d, i) in doors"
+          :key="d.href"
+          class="door"
+          :href="link(d.href)"
+          data-reveal
+          :style="{ '--d': `${i * 70}ms` }"
+        >
+          <span class="no" aria-hidden="true">{{ d.no }}</span>
+          <strong>{{ d.title }}</strong>
+          <small>{{ d.desc }}</small>
+        </a>
       </div>
     </section>
+
+    <p class="colophon" data-reveal>截图均按原样收录、未打码；涉及争议，以当时记录为准。欢迎当事人补充、更正。</p>
   </main>
 </template>

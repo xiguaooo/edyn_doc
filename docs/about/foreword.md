@@ -1,3 +1,8 @@
+---
+prev: /about/structure
+next: false
+---
+
 # 前言与鸣谢
 
 ## 前言

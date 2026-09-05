@@ -1,3 +1,8 @@
+---
+prev: /history/origin
+next: /history/rebirth
+---
+
 # 临时伊甸园
 
 **时间范围：2026-02-13 至 2026-02-28**  

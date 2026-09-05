@@ -1,3 +1,8 @@
+---
+prev: /history/interim
+next: /history/turbulence
+---
+
 # 伊甸园重生
 
 **时间范围：2026-02-28 至 2026-08-05**
@@ -100,14 +105,20 @@
 
 7 月 14 日，伊隐突然在二群说要踢“白牛的白子”，并称此人在夜间私信骚扰自己，随后白牛被移出二群。宇沢在当时私信交流后称对方是未成年人；多位群友也说自己收到过私信骚扰。
 
-事件没有公开展开具体年龄、账号或私信内容。
+具体年龄和私信内容当时没有公开，群友只能从流出的聊天记录里大致判断对方是未成年人；之后白牛又用小号申请进群，被认出后再次被拒。
 
-**对应材料：** `image70`–`image73`
-<div class="event-images" aria-label="原始材料 image70 至 image73">
+**对应材料：** `image70`–`image79`
+<div class="event-images" aria-label="原始材料 image70 至 image79">
   <EvidenceImage :id="70" />
   <EvidenceImage :id="71" />
   <EvidenceImage :id="72" />
   <EvidenceImage :id="73" />
+  <EvidenceImage :id="74" />
+  <EvidenceImage :id="75" />
+  <EvidenceImage :id="76" />
+  <EvidenceImage :id="77" />
+  <EvidenceImage :id="78" />
+  <EvidenceImage :id="79" />
 </div>
 
 ## 07-19：伊隐开播“全员逃走中”
@@ -124,14 +135,8 @@
 
 直播期间，宇沢不断发送黑粉弹幕。伊隐的操作、bug 和观众弹幕共同制造了轻松氛围，直播中的偶发失误也成为成员共享的记忆。
 
-**对应材料：** `image74`–`image82`
-<div class="event-images" aria-label="原始材料 image74 至 image82">
-  <EvidenceImage :id="74" />
-  <EvidenceImage :id="75" />
-  <EvidenceImage :id="76" />
-  <EvidenceImage :id="77" />
-  <EvidenceImage :id="78" />
-  <EvidenceImage :id="79" />
+**对应材料：** `image80`–`image82`
+<div class="event-images" aria-label="原始材料 image80 至 image82">
   <EvidenceImage :id="80" />
   <EvidenceImage :id="81" />
   <EvidenceImage :id="82" />

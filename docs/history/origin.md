@@ -1,3 +1,8 @@
+---
+prev: /timeline
+next: /history/interim
+---
+
 # 最初伊甸园
 
 **时间范围：2026-01-17 至 2026-02-13**  

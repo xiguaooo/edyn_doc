@@ -5,11 +5,11 @@ const base = process.env.VITEPRESS_BASE || '/'
 export default defineConfig({
   lang: 'zh-CN',
   title: '伊甸园史记',
-  description: '2026 年群聊档案',
+  description: '一个粉丝群的七个多月：聊天截图、时间线与章节存档。',
   base,
   cleanUrls: true,
   head: [
-    ['meta', { name: 'theme-color', content: '#1f5a54' }],
+    ['meta', { name: 'theme-color', content: '#b03a26' }],
     ['meta', { name: 'author', content: '伊甸园史记整理组' }],
     ['link', { rel: 'icon', href: `${base}mark.svg` }]
   ],
@@ -44,6 +44,6 @@ export default defineConfig({
     outline: { level: [2, 3], label: '本页内容' },
     search: { provider: 'local' },
     socialLinks: [{ icon: 'github', link: 'https://github.com/xiguaooo/edyn_doc' }],
-    footer: { message: '基于原始群聊史料整理。', copyright: '内容以仓库声明为准' }
+    footer: { message: '叙述与截图分开存档，原图未打码。', copyright: '内容以仓库声明为准' }
   }
 })

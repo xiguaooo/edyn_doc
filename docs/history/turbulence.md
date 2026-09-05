@@ -1,3 +1,8 @@
+---
+prev: /history/rebirth
+next: /evidence/
+---
+
 # 伊甸园动荡
 
 **时间范围：2026-08-06 至 2026-08-30**
@@ -46,6 +51,8 @@
 
 ### 从一张铭牌截图开始
 
+事发前小群的气氛还很松弛：8 月 3 日，宇沢还在群里讲自己“梦到一张现实中没有的 3060ti”的显卡梦。
+
 在前面两次管理相关事件之后，许多成员已经觉得桃十一的行为存在异常。8 月 7 日，枫林湾在伊隐联动群里无意分享自己的 QQ 铭牌，并询问其他人有哪些铭牌。桃看到后认为枫林湾在炫耀，随后骂了几句。
 
 枫林湾感到无语和气愤，把这段记录转发出去，并在 8 月 7 日晚建立小群，与其他成员共同讨论。宇沢也分享大群记录，指出桃在多段聊天里反复展示自己的运气。一个看似轻微的“是否炫耀”判断，由此变成了多人参与的关系审视。
@@ -56,9 +63,11 @@
 
 群内还流传有关 UP 主“枫祁小峰”的说法：其自动回复中“心上人”的链接曾指向桃的 B 站空间，双方在小峰中考结束后断绝关系，并有约 1700 元欠款的传闻。
 
-**对应材料：** `image163`
-<div class="event-images" aria-label="原始材料 image163">
+**对应材料：** `image163`–`image165`
+<div class="event-images" aria-label="原始材料 image163 至 image165">
   <EvidenceImage :id="163" />
+  <EvidenceImage :id="164" />
+  <EvidenceImage :id="165" />
 </div>
 
 ## 08-09：第一、第二次反转
@@ -67,10 +76,8 @@
 
 8 月 9 日下午 3 点，伊隐在联动群公开讽刺桃的所作所为，也在大群公开嘲讽桃，取消她的管理身份并移出大群。这被称为第一次反转：许多群友以为伊隐终于恢复正常，但后续发展很快证明事情没有结束。
 
-**对应材料：** `image164`–`image170`
-<div class="event-images" aria-label="原始材料 image164 至 image170">
-  <EvidenceImage :id="164" />
-  <EvidenceImage :id="165" />
+**对应材料：** `image166`–`image170`
+<div class="event-images" aria-label="原始材料 image166 至 image170">
   <EvidenceImage :id="166" />
   <EvidenceImage :id="167" />
   <EvidenceImage :id="168" />
@@ -161,11 +168,12 @@ HXH 当着伊隐的面重复了一遍相关话语，带有讽刺意味；lzz 看
 
 不久，伊隐把桃的小号拉进大群和二群，本意是让桃隐藏身份、避免再次出事。结果桃进群后不久就自行暴露身份，并试图在大群重新挑起讨论。群里以“666，演都不演了”调侃这一转折。
 
-**对应材料：** `image188`–`image190`
-<div class="event-images" aria-label="原始材料 image188 至 image190">
+**对应材料：** `image188`–`image191`
+<div class="event-images" aria-label="原始材料 image188 至 image191">
   <EvidenceImage :id="188" />
   <EvidenceImage :id="189" />
   <EvidenceImage :id="190" />
+  <EvidenceImage :id="191" />
 </div>
 
 ## 08-13 至 08-15：定时动态、移出与还款声明
@@ -176,9 +184,8 @@ HXH 当着伊隐的面重复了一遍相关话语，带有讽刺意味；lzz 看
 
 8 月 15 日下午 5 点，最新聊天记录显示伊隐向 F 道歉，并声明替桃还清欠小峰的 1685.77 元。F 随后按承诺删除动态，伊隐又发动态证明这笔钱已经还完。这被标为第五次反转：公开曝光链条暂时被道歉和还款声明打断。
 
-**对应材料：** `image191`–`image206`
-<div class="event-images" aria-label="原始材料 image191 至 image206">
-  <EvidenceImage :id="191" />
+**对应材料：** `image192`–`image207`
+<div class="event-images" aria-label="原始材料 image192 至 image207">
   <EvidenceImage :id="192" />
   <EvidenceImage :id="193" />
   <EvidenceImage :id="194" />
@@ -194,6 +201,7 @@ HXH 当着伊隐的面重复了一遍相关话语，带有讽刺意味；lzz 看
   <EvidenceImage :id="204" />
   <EvidenceImage :id="205" />
   <EvidenceImage :id="206" />
+  <EvidenceImage :id="207" />
 </div>
 
 ## 08-17：关系破裂与第六次反转
@@ -204,12 +212,17 @@ HXH 当着伊隐的面重复了一遍相关话语，带有讽刺意味；lzz 看
 
 这被列作第六次反转。和前五次相比，这次变化不再只是群主态度改变，而是关系链从“保护与包容”转为公开断绝。
 
-**对应材料：** `image207`–`image210`
-<div class="event-images" aria-label="原始材料 image207 至 image210">
-  <EvidenceImage :id="207" />
+**对应材料：** `image208`–`image216`
+<div class="event-images" aria-label="原始材料 image208 至 image216">
   <EvidenceImage :id="208" />
   <EvidenceImage :id="209" />
   <EvidenceImage :id="210" />
+  <EvidenceImage :id="211" />
+  <EvidenceImage :id="212" />
+  <EvidenceImage :id="213" />
+  <EvidenceImage :id="214" />
+  <EvidenceImage :id="215" />
+  <EvidenceImage :id="216" />
 </div>
 
 ## 08-25 至 08-26：阶段性收束
@@ -218,14 +231,8 @@ HXH 当着伊隐的面重复了一遍相关话语，带有讽刺意味；lzz 看
 
 8 月 26 日晚，伊隐也发布动态，指责自己替桃还钱后反遭辱骂。至此，桃事件暂告一段落。
 
-**对应材料：** `image211`–`image219`
-<div class="event-images" aria-label="原始材料 image211 至 image219">
-  <EvidenceImage :id="211" />
-  <EvidenceImage :id="212" />
-  <EvidenceImage :id="213" />
-  <EvidenceImage :id="214" />
-  <EvidenceImage :id="215" />
-  <EvidenceImage :id="216" />
+**对应材料：** `image217`–`image219`
+<div class="event-images" aria-label="原始材料 image217 至 image219">
   <EvidenceImage :id="217" />
   <EvidenceImage :id="218" />
   <EvidenceImage :id="219" />

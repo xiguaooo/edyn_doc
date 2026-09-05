@@ -85,17 +85,22 @@ next: /history/turbulence
 > 校园内，该成员长期遭受同窗霸凌，此次群内风波被霸凌者利用，借举报机制将其塑造为主要责任方，形成典型的“替罪羊效应”。该成员继而对伊隐持续网络侵扰（包括邮件轰炸），出现自残行为，霸凌者反应冷漠。新学年分班后，欺凌未止，该成员最终申请休学；休学前，他曾致信早年班主任表达强烈不满并断绝联系。
 
 综合而言，该成员的结局系其自身不当言行与群体霸凌、责任转嫁等多重因素共同作用的结果。
+
+**对应材料：** `image64`–`image66`
+<div class="event-images" aria-label="原始材料 image64 至 image66">
+  <EvidenceImage :id="64" />
+  <EvidenceImage :id="65" />
+  <EvidenceImage :id="66" />
+</div>
+
 ### 约 07-10 至 07-15：二群申诉
 
 约 7 月 10 日至 15 日，该成员申诉并进入二群辩解；其后与 F 发生带威胁意味的争吵并被要求退群，又在不明原因下添加 F。F 询问伊隐后选择拉黑该成员。有人曾尝试报警，但没有结果。
 
 这段冲突围绕邮箱、私信、举报和报警说法展开，最终以相互拉黑和退出群聊暂告一段落。
 
-**对应材料：** `image64`–`image69`
-<div class="event-images" aria-label="原始材料 image64 至 image69">
-  <EvidenceImage :id="64" />
-  <EvidenceImage :id="65" />
-  <EvidenceImage :id="66" />
+**对应材料：** `image67`–`image69`
+<div class="event-images" aria-label="原始材料 image67 至 image69">
   <EvidenceImage :id="67" />
   <EvidenceImage :id="68" />
   <EvidenceImage :id="69" />

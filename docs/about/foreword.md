@@ -1,5 +1,7 @@
 ---
-prev: /about/structure
+prev:
+  text: 群体与称呼
+  link: /about/structure
 next: false
 ---
 

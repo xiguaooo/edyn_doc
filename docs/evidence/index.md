@@ -1,6 +1,10 @@
 ---
-prev: /history/turbulence
-next: /about/structure
+prev:
+  text: 桃十一事件
+  link: /history/tao-shiyi
+next:
+  text: 群体与称呼
+  link: /about/structure
 ---
 
 # 截图档案

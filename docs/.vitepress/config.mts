@@ -17,6 +17,7 @@ export default defineConfig({
     logo: '/mark.svg',
     siteTitle: '伊甸园史记',
     nav: [
+      { text: '更新日志', link: '/changelog' },
       { text: '时间线', link: '/timeline' },
       { text: '历史章节', link: '/history/origin' },
       { text: '截图档案', link: '/evidence/' },
@@ -28,13 +29,15 @@ export default defineConfig({
           { text: '最初伊甸园', link: '/history/origin' },
           { text: '临时伊甸园', link: '/history/interim' },
           { text: '伊甸园重生', link: '/history/rebirth' },
-          { text: '伊甸园动荡', link: '/history/turbulence' }
+          { text: '伊甸园动荡', link: '/history/turbulence' },
+          { text: '桃十一事件', link: '/history/tao-shiyi' }
         ] }
       ],
       '/about/': [
         { text: '关于档案', items: [
           { text: '群体与称呼', link: '/about/structure' },
-          { text: '前言与鸣谢', link: '/about/foreword' }
+          { text: '前言与鸣谢', link: '/about/foreword' },
+          { text: '更新日志', link: '/changelog' }
         ] }
       ],
       '/evidence/': [

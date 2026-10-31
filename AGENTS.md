@@ -8,10 +8,21 @@ This repository is a VitePress documentation site. Content lives in `docs/`:
 - `docs/about/`: background, terminology, and editorial notes.
 - `docs/evidence/`: screenshot archive pages.
 - `docs/public/evidence/`: source screenshots named `imageN.ext`.
-- `docs/.vitepress/`: site configuration, theme components, and styles.
+- `docs/.vitepress/`: site configuration, theme components, and styles. Components live directly in `docs/.vitepress/theme/`, not in a `components/` subdirectory.
 - `docs/timeline.md`: cross-chapter event index.
+- `scripts/`: repository tooling that runs before the site build.
 
 The Word document in the repository is historical source material only; do not edit or upload derived changes to it.
+
+## Evidence Image Numbering
+
+`docs/public/evidence/` is the single source of truth for evidence images. Never hand-edit `docs/.vitepress/theme/evidence-manifest.ts`; it is generated.
+
+- `scripts/evidence-manifest.mjs` scans the directory and writes the manifest. It runs automatically via the `predev` and `prebuild` npm hooks. Run `npm run evidence:manifest` to regenerate on its own, or `npm run evidence:check` to verify without writing.
+- The script fails the build on broken numbering, duplicate files for one ID, malformed filenames, or Markdown that references a nonexistent ID. Fix the image files rather than the generated manifest.
+- Reference numeric IDs with `<EvidenceImage :id="76" />`. IDs with a letter suffix must use a static attribute, `<EvidenceImage id="76a" />`, because `:id` is parsed as a JavaScript expression and `76a` is not a valid literal.
+- Published IDs are stable identifiers. To insert an image between existing ones, add a letter-suffix ID (`image76a`) instead of renumbering the files that follow.
+- Write the screenshot total in prose through the `<EvidenceCount />` component rather than a literal number.
 
 ## Build, Test, and Development Commands
 
@@ -22,6 +33,7 @@ npm install              # install locked dependencies
 npm run docs:dev         # start the local VitePress server
 npm run docs:build       # build the production site and validate Markdown/Vue usage
 npm run docs:preview     # preview the production build locally
+npm run evidence:manifest # regenerate the evidence image manifest
 ```
 
 There is currently no separate unit-test or lint script. Always run `npm run docs:build` before submitting documentation or theme changes.
@@ -32,7 +44,7 @@ Every user-visible update must also update `docs/changelog.md` in the same commi
 
 ## Coding Style & Naming Conventions
 
-Use UTF-8 Markdown with concise Chinese prose. Keep headings descriptive and use ATX headings (`#`, `##`). Use two spaces for nested Markdown indentation. History image references should use `<EvidenceImage :id="N" />`; preserve sequential image IDs and original file extensions. Vue/TypeScript components use PascalCase filenames, while utility modules use lowercase or descriptive camelCase names. Match the existing VitePress and Vue style before introducing abstractions.
+Use UTF-8 Markdown with concise Chinese prose. Keep headings descriptive and use ATX headings (`#`, `##`). Use two spaces for nested Markdown indentation. History image references use `<EvidenceImage :id="N" />`, or `id="N"` for letter-suffix IDs; preserve image IDs and original file extensions. Vue/TypeScript components use PascalCase filenames, while utility modules use lowercase or descriptive camelCase names. Match the existing VitePress and Vue style before introducing abstractions.
 
 ## Testing Guidelines
 

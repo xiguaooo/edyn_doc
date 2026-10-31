@@ -4,6 +4,10 @@
   "private": true,
   "type": "module",
   "scripts": {
+    "evidence:manifest": "node scripts/evidence-manifest.mjs",
+    "evidence:check": "node scripts/evidence-manifest.mjs --check",
+    "predev": "npm run evidence:manifest",
+    "prebuild": "npm run evidence:manifest",
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
     "docs:preview": "vitepress preview docs"

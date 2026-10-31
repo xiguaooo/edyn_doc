@@ -1,19 +1,19 @@
 <script setup lang="ts">
-import { nextTick, onBeforeUnmount, onMounted, ref, watch } from 'vue'
-import { evidenceSource } from './evidence'
+import { computed, nextTick, onBeforeUnmount, onMounted, ref, watch } from 'vue'
+import { EVIDENCE_COUNT, EVIDENCE_IDS, evidenceSource } from './evidence'
 
-type Evidence = { src: string; label: string; id?: number }
+type Evidence = { src: string; label: string; id?: string }
 
-const TOTAL = 219
 const MIN_ZOOM = 0.25
 
 const selected = ref<Evidence | null>(null)
-const currentId = ref(1)
+const currentId = ref<string>(EVIDENCE_IDS[0])
 const zoom = ref(1)
 const stage = ref<HTMLElement | null>(null)
 const naturalWidth = ref(0)
 const naturalHeight = ref(0)
 const fitScale = ref(1)
+const position = computed(() => EVIDENCE_IDS.indexOf(currentId.value) + 1)
 
 let pan: { x: number; y: number; left: number; top: number; id: number } | null = null
 
@@ -38,9 +38,9 @@ function onPointerUp() {
   pan = null
 }
 
-function parseId(src: string): number | null {
-  const m = src.match(/image(\d+)\./)
-  return m ? Number(m[1]) : null
+function parseId(src: string): string | null {
+  const m = src.match(/image(\d+[a-z]?)\./)
+  return m ? m[1] : null
 }
 
 function fitImage() {
@@ -97,7 +97,9 @@ function adjustZoom(amount: number) {
 }
 
 function navigate(delta: number) {
-  const next = (((currentId.value - 1 + delta) % TOTAL) + TOTAL) % TOTAL + 1
+  const total = EVIDENCE_IDS.length
+  const index = EVIDENCE_IDS.indexOf(currentId.value)
+  const next = EVIDENCE_IDS[(((index + delta) % total) + total) % total]
   currentId.value = next
   selected.value = { src: evidenceSource(next), label: `原始材料 image${next}`, id: next }
   zoom.value = 1
@@ -161,7 +163,7 @@ onBeforeUnmount(() => {
   <Teleport to="body">
     <div v-if="selected" class="evidence-modal" role="dialog" aria-modal="true" :aria-label="selected.label" @click.self="close">
       <div class="evidence-modal-bar">
-        <span>{{ selected.label }}（{{ currentId }} / {{ TOTAL }}）</span>
+        <span>{{ selected.label }} · 第 {{ position }} / {{ EVIDENCE_COUNT }} 张</span>
         <div class="evidence-modal-actions">
           <button type="button" title="缩小" aria-label="缩小" @click="adjustZoom(-0.25)">-</button>
           <button type="button" title="重置缩放" aria-label="重置缩放" @click="zoom = 1">{{ Math.round(zoom * 100) }}%</button>

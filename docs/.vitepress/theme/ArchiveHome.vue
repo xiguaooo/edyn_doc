@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { onMounted } from 'vue'
 import { withBase } from 'vitepress'
+import { EVIDENCE_COUNT } from './evidence'
 
 const link = (path: string) => withBase(path)
 
@@ -8,12 +9,12 @@ const chapters = [
   { juan: '卷一', date: '01.17 — 02.13', title: '最初伊甸园', desc: '建群、开放、人数破千，然后第一次被封。', href: '/history/origin', color: 'green' },
   { juan: '卷二', date: '02.13 — 02.28', title: '临时伊甸园', desc: '大群没了的十五天，临时群成了主阵地。', href: '/history/interim', color: 'gold' },
   { juan: '卷三', date: '02.28 — 08.05', title: '伊甸园重生', desc: '解封后的半年：日常、直播，和一场管理风波。', href: '/history/rebirth', color: 'blue' },
-  { juan: '卷四', date: '08.06 — 08.30', title: '伊甸园动荡', desc: '凌晨解散、重建新群，桃十一事件六次反转。', href: '/history/turbulence', color: 'red' }
+  { juan: '卷四', date: '08.06 — 10.07', title: '伊甸园动荡', desc: '凌晨解散、重建新群，桃十一事件六次反转，散伙之后的续记。', href: '/history/turbulence', color: 'red' }
 ]
 
 const doors = [
   { no: '01', title: '总时间线', desc: '哪天发生了什么，一行一条。', href: '/timeline' },
-  { no: '02', title: '截图档案', desc: '219 张原图，按编号查。', href: '/evidence/' },
+  { no: '02', title: '截图档案', desc: `${EVIDENCE_COUNT} 张原图，按编号查。`, href: '/evidence/' },
   { no: '03', title: '群体与称呼', desc: '大群、二群、临时群，先分清再读。', href: '/about/structure' },
   { no: '04', title: '前言与鸣谢', desc: '这部史记是怎么攒出来的。', href: '/about/foreword' }
 ]
@@ -37,7 +38,7 @@ onMounted(() => {
     <p class="spine" aria-hidden="true">伊甸园群聊存档 · 二〇二六</p>
 
     <header class="hero">
-      <p class="eyebrow rise"><i class="sq" aria-hidden="true"></i>伊甸园群聊存档 · 2026.01 — 2026.08</p>
+      <p class="eyebrow rise"><i class="sq" aria-hidden="true"></i>伊甸园群聊存档 · 2026.01 — 2026.10</p>
       <div class="hero-grid">
         <div class="hero-title rise d1">
           <h1>伊甸园史记</h1>
@@ -54,8 +55,8 @@ onMounted(() => {
       </div>
       <dl class="hero-facts rise d3">
         <div><dt>记录起点</dt><dd>2026.01.17</dd></div>
-        <div><dt>本版截止</dt><dd>2026.08.30</dd></div>
-        <div><dt>收录截图</dt><dd>219 张</dd></div>
+        <div><dt>本版截止</dt><dd>2026.10.07</dd></div>
+        <div><dt>收录截图</dt><dd><EvidenceCount /></dd></div>
         <div><dt>全史</dt><dd>四卷</dd></div>
       </dl>
     </header>

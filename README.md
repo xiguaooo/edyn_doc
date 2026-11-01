@@ -18,7 +18,7 @@
 
 ## 这是什么
 
-「伊甸园史记」是一部以 VitePress 构建的群聊史料文档站，记录了一个名为「伊甸园」的伊隐粉丝群从 **2026 年 1 月 17 日建群** 到 **2026 年 8 月 30 日**散伙的全过程。前后七个多月，有人把每天的聊天都截了图，攒下一万多张；这里筛出 **219 张**，按日子排好，原图未打码。
+「伊甸园史记」是一部以 VitePress 构建的群聊史料文档站，记录了一个名为「伊甸园」的伊隐粉丝群从 **2026 年 1 月 17 日建群** 到 **2026 年 10 月 7 日账号被封**的全过程。前后七个多月，有人把每天的聊天都截了图，攒下一万多张；这里筛出 **228 张**，按日子排好，原图未打码。
 
 这不是一份裁决书，也不是一篇檄文。它是一份存档——把当时发生了什么、谁说了什么、群里的气氛怎样，原样保留下来。叙述和截图分开存放，读叙述时能看到对应的原始材料，看材料时能找到对应的叙述。
 
@@ -29,7 +29,7 @@
 | 卷一 | **最初伊甸园** | 01.17 — 02.13 | 建群、开放、人数破千，然后第一次被封 |
 | 卷二 | **临时伊甸园** | 02.13 — 02.28 | 大群没了的十五天，临时群成了主阵地 |
 | 卷三 | **伊甸园重生** | 02.28 — 08.05 | 解封后的半年：日常、直播，和一场管理风波 |
-| 卷四 | **伊甸园动荡** | 08.06 — 08.30 | 凌晨解散、重建新群，桃十一事件六次反转 |
+| 卷四 | **伊甸园动荡** | 08.06 — 10.07 | 凌晨解散、重建新群，桃十一事件六次反转，散伙之后的公告与封号 |
 
 ### 八个页面
 
@@ -40,6 +40,8 @@
          → 卷三 · 伊甸园重生 → 卷四 · 伊甸园动荡
          → 截图档案 → 群体与称呼 → 前言与鸣谢
 ```
+
+站点只有四卷，标题一律是「伊甸园xx」。桃十一事件和散伙之后的刈民王事件都不单独成页，而是作为卷四内部的段落：前者接在 8 月 6 日的解散与重建之后，后者作为卷末的「09-23 与 10-07：散伙之后的续记」。
 
 ---
 
@@ -72,14 +74,16 @@ edyn_doc/
 │   │       ├── index.ts                # 主题入口：注册全局组件 + 注入灯箱
 │   │       ├── style.css              # 视觉系统：纸 / 墨 / 朱印 配色与全部自定义样式
 │   │       ├── ArchiveHome.vue         # 首页组件：书脊、章节行、入口卡片
-│   │       ├── EvidenceGallery.vue     # 截图档案网格：219 张缩略图 + 编号筛选
+│   │       ├── EvidenceGallery.vue     # 截图档案网格：全部缩略图 + 编号筛选
 │   │       ├── EvidenceImage.vue       # 单张截图组件：懒加载缩略图 + 点击打开灯箱
 │   │       ├── EvidenceLightbox.vue    # 全屏灯箱：缩放、拖拽平移、左右切换、键盘操作
-│   │       └── evidence.ts            # 图片路径工具：编号 → URL 映射，处理扩展名差异
+│   │       ├── EvidenceCount.vue       # 输出「N 张」，供正文引用截图总数
+│   │       ├── evidence-manifest.ts   # 自动生成：编号与扩展名清单，请勿手改
+│   │       └── evidence.ts            # 图片路径工具：编号 → URL，读 manifest
 │   ├── public/
 │   │   ├── evidence/
-│   │   │   ├── image1.jpeg             # 219 张原始截图（jpeg / jpg / png 混合）
-│   │   │   └── ... image219.png
+│   │   │   ├── image1.jpeg             # 原始截图（jpeg / jpg / png 混合）
+│   │   │   └── ... image228.jpeg
 │   │   ├── mark.svg                    # 站点标识（朱印方形 logo）
 │   │   └── favicon.ico
 │   ├── index.md                        # 首页 Markdown（加载 ArchiveHome 组件）
@@ -88,12 +92,14 @@ edyn_doc/
 │   │   ├── origin.md                   # 卷一 · 最初伊甸园
 │   │   ├── interim.md                  # 卷二 · 临时伊甸园
 │   │   ├── rebirth.md                  # 卷三 · 伊甸园重生
-│   │   └── turbulence.md               # 卷四 · 伊甸园动荡
+│   │   └── turbulence.md               # 卷四 · 伊甸园动荡（含桃十一事件与散伙后续记）
 │   ├── evidence/
 │   │   └── index.md                    # 截图档案页（加载 EvidenceGallery 组件）
 │   └── about/
 │       ├── structure.md                # 群体与称呼
 │       └── foreword.md                 # 前言与鸣谢
+├── scripts/
+│   └── evidence-manifest.mjs           # 扫描截图目录、校验编号、生成 manifest
 ├── package.json
 └── README.md                           # 你正在读的这个文件
 ```
@@ -166,18 +172,27 @@ const io = new IntersectionObserver((entries) => {
 ### EvidenceGallery.vue —— 截图档案网格
 
 ```
-输入：无（内部硬编码 219 张图）
+输入：无（编号清单来自 evidence-manifest.ts）
 输出：带筛选的缩略图网格
 ```
 
-- 顶部工具栏：编号筛选输入框 + 实时计数「显示 N / 219 张材料」
+- 顶部工具栏：编号筛选输入框 + 实时计数「显示 N / 总数 张材料」
 - 网格：每张图是一个 `<button>`，点击触发 `window.dispatchEvent(new CustomEvent('evidence:open', ...))`
 - 图片懒加载（`loading="lazy"`）
-- 筛选逻辑：输入数字字符串后，对 1–219 的编号做 `String(id).includes(filter)` 模糊匹配
+- 筛选逻辑：输入数字字符串后，对全部编号做 `id.includes(filter)` 模糊匹配（搜 `7` 会命中 7、17、70~79）
 
 ### EvidenceImage.vue —— 单张截图
 
-在历史章节的 Markdown 中通过 `<EvidenceImage :id="70" />` 语法直接调用。渲染为一个链接包裹的 `<img>`，懒加载，`alt` 属性自动生成为「原始材料 image70」。点击时由全局 `EvidenceLightbox` 拦截并打开灯箱。
+在历史章节的 Markdown 中调用，渲染为一个链接包裹的 `<img>`，懒加载，`alt` 属性自动生成为「原始材料 image70」。点击时由全局 `EvidenceLightbox` 拦截并打开灯箱。
+
+纯数字编号用动态绑定，带字母后缀的编号用静态属性：
+
+```markdown
+<EvidenceImage :id="76" />
+<EvidenceImage id="76a" />
+```
+
+⚠️ 字母后缀**不能**写成 `:id="76a"` —— 动态绑定会被当成 JavaScript 表达式解析，`76a` 不是合法字面量，构建会报 `Identifier directly after number`。
 
 ### EvidenceLightbox.vue —— 全屏灯箱
 
@@ -201,7 +216,7 @@ const io = new IntersectionObserver((entries) => {
 - 通过 `Teleport to="body"` 渲染到文档末尾，避免被父容器 `overflow` 裁切
 - 打开时锁定背景滚动（`document.body.style.overflow = 'hidden'`），关闭时恢复
 - 图片切换时自动重置缩放为 100%
-- 顶栏实时显示「原始材料 imageN（当前 / 219）」
+- 顶栏实时显示「原始材料 imageN · 第 N / 总数 张」
 - 图片设为 `draggable="false"` + `user-select: none` + `-webkit-user-drag: none`，杜绝浏览器原生拖拽的幽灵图标
 - 缩放后的图片通过 `min-width: 100%; max-width: none` 突破容器宽度限制，确保放大后可水平滚动
 - 平移使用 `Pointer Events`（`pointerdown` / `pointermove` / `pointerup`）+ `setPointerCapture`，兼容鼠标和触摸
@@ -210,18 +225,21 @@ const io = new IntersectionObserver((entries) => {
 ### evidence.ts —— 图片路径工具
 
 ```typescript
-const extensions: Record<number, string> = {
-  17: 'png', 20: 'png', 24: 'png', 42: 'png', 47: 'png', ...
-  64: 'jpg', 65: 'jpg', 66: 'jpg', 68: 'png', 69: 'png', ...
-  217: 'png', 218: 'png', 219: 'png'
-}
+import { EVIDENCE } from './evidence-manifest'
 
-export function evidenceSource(id: number) {
-  return withBase(`/evidence/image${id}.${extensions[id] || 'jpeg'}`)
+export const EVIDENCE_IDS = EVIDENCE.map((entry) => entry.id)
+export const EVIDENCE_COUNT = EVIDENCE.length
+
+export function evidenceSource(id: string | number) {
+  const extension = extensionById.get(String(id))
+  if (!extension) throw new Error(`未知截图编号 image${id}`)
+  return withBase(`/evidence/image${id}.${extension}`)
 }
 ```
 
-219 张截图从 Word 底本导出时，扩展名不统一（jpeg / jpg / png 混合）。这个工具函数维护了一张扩展名映射表，对调用方透明——只需传入编号，自动返回正确路径。未在表中登记的编号默认按 `.jpeg` 处理。
+截图从 Word 底本导出时扩展名不统一（jpeg / jpg / png 混合）。这里不再手写映射表，而是读 `evidence-manifest.ts` —— 扩展名由 `scripts/evidence-manifest.mjs` 直接扫描磁盘得到，对调用方透明：只需传入编号，自动返回正确路径。
+
+编号查不到时**抛错而非静默兜底**，所以 Markdown 里写错编号会在构建阶段暴露，而不是上线后显示一张坏图。
 
 ---
 
@@ -284,7 +302,9 @@ next: /history/interim
 
 ### 图片编号连续
 
-219 张图按时间顺序编号（image1 — image219），编号即顺序。每个事件占用的编号区间是连续的，相邻事件之间不留空号。这样从截图档案页按编号浏览时，也能隐约读出时间线。
+截图按时间顺序编号（image1 — image228），编号即顺序。每个事件占用的编号区间是连续的，相邻事件之间不留空号。这样从截图档案页按编号浏览时，也能隐约读出时间线。
+
+编号同时是**稳定标识**：已经发布过的编号不重排、不改名。在两个已有编号之间补图时，用字母后缀（`image76` → `image76a` → `image77`）而不是重排后面的号，档案页和灯箱仍按 `(数字部分, 字母部分)` 正确排序。
 
 ### 表述克制
 
@@ -311,6 +331,12 @@ npm install
 
 # 启动开发服务器（默认 http://localhost:5173）
 npm run docs:dev
+
+# 单独重新生成截图编号清单（docs:dev / docs:build 会自动执行）
+npm run evidence:manifest
+
+# 只校验清单与截图目录是否同步，不写入
+npm run evidence:check
 ```
 
 ### 构建静态站
@@ -353,6 +379,8 @@ push to main
 │  2. setup Node.js 22            │
 │  3. npm ci（锁文件安装）         │
 │  4. npm run docs:build          │
+│     ├─ prebuild 自动校验并生成  │
+│     │  截图编号清单              │
 │     └─ VITEPRESS_BASE=/edyn_doc/│
 │  5. upload-pages-artifact       │
 │     └─ path: docs/.vitepress/dist│
@@ -411,11 +439,53 @@ permissions:
 
 ### 新增一张截图
 
-1. 将图片文件放入 `docs/public/evidence/`，命名格式为 `imageN.ext`（N 为下一个连续编号）
-2. 如果扩展名不是 `.jpeg`，在 `docs/.vitepress/theme/evidence.ts` 的 `extensions` 映射表中登记
-3. 更新 `EvidenceGallery.vue` 中的 `Array.from({ length: 219 }` 的总数
-4. 更新 `EvidenceLightbox.vue` 中的 `const TOTAL = 219`
-5. 在对应事件的 Markdown 中添加 `<EvidenceImage :id="N" />`
+图片文件是唯一的事实来源：编号和扩展名都由脚本扫描目录得出，**不需要手工登记任何映射表或总数**。
+
+1. 把图片文件放进 `docs/public/evidence/`，命名为 `image<编号>.<扩展名>`
+2. 在章节 Markdown 里引用它
+3. 跑 `npm run docs:dev` 或 `npm run docs:build`（两者会自动执行 `npm run evidence:manifest`）
+
+第 3 步生成的 `docs/.vitepress/theme/evidence-manifest.ts` 需要一并提交，这样 diff 里能直接看到编号和扩展名的变化。
+
+**脚本会在以下情况直接失败**，而不是留到上线后才发现：
+
+| 情况 | 说明 |
+| --- | --- |
+| 断号 | 例如删掉 `image150` 却留下 `image151` |
+| 编号重复 | 同一编号出现两个文件，如 `image76.jpeg` 与 `image76.png` |
+| 文件名不合规 | 不匹配 `image<编号>[字母].jpeg\|jpg\|png\|gif\|webp` |
+| 编号非法 | `image0`、前导零如 `image077` |
+| 字母后缀缺主编号 | 有 `image77a` 却没有 `image77` |
+| 正文引用了不存在的编号 | Markdown 里写了 manifest 中没有的编号 |
+
+加了图但还没写正文引用时，脚本输出提醒（不阻断构建），方便先把图收进来再补叙述。
+
+### 中间插入一张截图
+
+已有编号是**稳定标识**，不重排、不改名（见 [更新日志](docs/changelog.md) 的版本说明）。所以在 1–228 之间补图时，用字母后缀编号，不要重排后面的号：
+
+```
+image76 → image76a → image77
+```
+
+档案页和灯箱按 `(数字部分, 字母部分)` 排序，`image76a` 会自动排在 `image76` 与 `image77` 之间，方向键翻页顺序也正确。
+
+完整例子，在 `docs/history/rebirth.md` 的 07-14 事件里插入 `image76a.png`：
+
+```markdown
+**对应材料：** `image70`–`image76a`–`image79`
+<div class="event-images" aria-label="原始材料 image70 至 image79，含 image76a">
+  <EvidenceImage :id="70" />
+  ...
+  <EvidenceImage :id="76" />
+  <EvidenceImage id="76a" />
+  <EvidenceImage :id="77" />
+  ...
+  <EvidenceImage :id="79" />
+</div>
+```
+
+注意 `image76a` 用**静态属性** `id=` 而非 `:id=`，原因见上一节。同时要更新 `docs/timeline.md` 里对应行的编号范围。
 
 ### 修改翻页顺序
 
@@ -442,7 +512,11 @@ VitePress 基于 Vite + Vue 3，开发热更新极快，原生支持在 Markdown
 
 ### 为什么图片扩展名不统一？
 
-219 张截图是从一份 Word 底本里批量导出的，Word 内嵌图片的原始格式不统一（有些是 PNG 截图，有些是 JPEG 照片，个别是 JPG）。为了保证「文件名和顺序都没动」的存档原则，我们保留原始格式，用 `evidence.ts` 的映射表在代码层抹平差异。
+截图是从一份 Word 底本里批量导出的，Word 内嵌图片的原始格式不统一（有些是 PNG 截图，有些是 JPEG 照片，个别是 JPG）。为了保证「文件名和顺序都没动」的存档原则，我们保留原始格式，由 `scripts/evidence-manifest.mjs` 扫描目录把扩展名写进 `evidence-manifest.ts`，在代码层抹平差异——调用方始终只需关心编号。
+
+### 为什么编号清单要生成而不是手写？
+
+手写映射表必然腐化：加一张图要同步改扩展名表、画廊总数、灯箱总数、正文文案四五处，漏一处就是坏图或错的计数。改成扫描目录生成后，图片文件本身成为唯一事实来源，新增图片只需「放文件 + 写引用」，脚本还会反过来校验编号连续性、重复与正文引用是否存在。
 
 ### 为什么灯箱用 Pointer Events 而不是 Mouse Events？
 
@@ -466,7 +540,7 @@ Pointer Events 统一了鼠标、触摸和笔输入。用 `setPointerCapture` �
 | `docs/history/origin.md` | — | 卷一 · 最初伊甸园 |
 | `docs/history/interim.md` | — | 卷二 · 临时伊甸园 |
 | `docs/history/rebirth.md` | — | 卷三 · 伊甸园重生 |
-| `docs/history/turbulence.md` | — | 卷四 · 伊甸园动荡 |
+| `docs/history/turbulence.md` | — | 卷四 · 伊甸园动荡（含桃十一事件与 09-23 后的续记） |
 | `docs/evidence/index.md` | — | 截图档案页 |
 | `docs/about/structure.md` | — | 群体与称呼 |
 | `docs/about/foreword.md` | — | 前言与鸣谢 |

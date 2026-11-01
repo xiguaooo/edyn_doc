@@ -4,6 +4,7 @@ import './style.css'
 import EvidenceGallery from './EvidenceGallery.vue'
 import EvidenceLightbox from './EvidenceLightbox.vue'
 import EvidenceImage from './EvidenceImage.vue'
+import EvidenceCount from './EvidenceCount.vue'
 import ArchiveHome from './ArchiveHome.vue'
 
 const Layout = defineComponent({
@@ -20,6 +21,7 @@ export default {
   enhanceApp({ app }) {
     app.component('EvidenceGallery', EvidenceGallery)
     app.component('EvidenceImage', EvidenceImage)
+    app.component('EvidenceCount', EvidenceCount)
     app.component('ArchiveHome', ArchiveHome)
   }
 }

@@ -3,7 +3,7 @@ import { computed } from 'vue'
 import { evidenceSource } from './evidence'
 
 const props = defineProps<{ id: number | string }>()
-const imageId = computed(() => Number(props.id))
+const imageId = computed(() => String(props.id))
 const source = computed(() => evidenceSource(imageId.value))
 </script>
 

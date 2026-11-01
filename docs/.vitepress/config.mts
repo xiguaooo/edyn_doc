@@ -29,8 +29,7 @@ export default defineConfig({
           { text: '最初伊甸园', link: '/history/origin' },
           { text: '临时伊甸园', link: '/history/interim' },
           { text: '伊甸园重生', link: '/history/rebirth' },
-          { text: '伊甸园动荡', link: '/history/turbulence' },
-          { text: '桃十一事件', link: '/history/tao-shiyi' }
+          { text: '伊甸园动荡', link: '/history/turbulence' }
         ] }
       ],
       '/about/': [

@@ -5,9 +5,10 @@
   "type": "module",
   "scripts": {
     "evidence:manifest": "node scripts/evidence-manifest.mjs",
+    "evidence:thumbs": "node scripts/evidence-thumbs.mjs",
     "evidence:check": "node scripts/evidence-manifest.mjs --check",
-    "predev": "npm run evidence:manifest",
-    "prebuild": "npm run evidence:manifest",
+    "predev": "npm run evidence:manifest && npm run evidence:thumbs",
+    "prebuild": "npm run evidence:manifest && npm run evidence:thumbs",
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
     "docs:preview": "vitepress preview docs"

@@ -2,24 +2,24 @@
   <title id="mk-title">伊甸园史记</title>
   <defs>
     <!-- ===== 纸面 ===== -->
-    <linearGradient id="mk-paper" x1="0" y1="0" x2="0" y2="1024" gradientUnits="userSpaceOnUse">
+    <linearGradient id="mk-paper" x1="0" y1="42" x2="0" y2="974" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#fffdf7"/>
       <stop offset=".42" stop-color="#f9f3e6"/>
       <stop offset=".78" stop-color="#efe6d2"/>
-      <stop offset="1" stop-color="#e3d8c0"/>
+      <stop offset="1" stop-color="#e2d7be"/>
     </linearGradient>
-    <radialGradient id="mk-sheen" cx="352" cy="150" r="860" gradientUnits="userSpaceOnUse">
+    <radialGradient id="mk-sheen" cx="330" cy="170" r="820" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#ffffff" stop-opacity=".92"/>
-      <stop offset=".42" stop-color="#ffffff" stop-opacity=".28"/>
+      <stop offset=".42" stop-color="#ffffff" stop-opacity=".26"/>
       <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
     </radialGradient>
-    <radialGradient id="mk-vignette" cx="470" cy="430" r="760" gradientUnits="userSpaceOnUse">
-      <stop offset=".52" stop-color="#6d5a37" stop-opacity="0"/>
-      <stop offset=".88" stop-color="#6d5a37" stop-opacity=".1"/>
-      <stop offset="1" stop-color="#5c4a2a" stop-opacity=".2"/>
+    <radialGradient id="mk-vignette" cx="440" cy="420" r="720" gradientUnits="userSpaceOnUse">
+      <stop offset=".5" stop-color="#6d5a37" stop-opacity="0"/>
+      <stop offset=".86" stop-color="#6d5a37" stop-opacity=".1"/>
+      <stop offset="1" stop-color="#5c4a2a" stop-opacity=".22"/>
     </radialGradient>
-    <pattern id="mk-grid" width="72" height="72" patternUnits="userSpaceOnUse">
-      <path d="M72 0H0v72" fill="none" stroke="#7d6840" stroke-opacity=".085" stroke-width="1.2"/>
+    <pattern id="mk-grid" width="78" height="78" patternUnits="userSpaceOnUse">
+      <path d="M78 0H0v78" fill="none" stroke="#7d6840" stroke-opacity=".14" stroke-width="1.4"/>
     </pattern>
     <filter id="mk-grain" x="0" y="0" width="100%" height="100%">
       <feTurbulence type="fractalNoise" baseFrequency=".82" numOctaves="3" seed="17" stitchTiles="stitch"/>
@@ -27,78 +27,79 @@
     </filter>
 
     <!-- ===== 朱印 ===== -->
-    <linearGradient id="mk-seal" x1="300" y1="286" x2="640" y2="662" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#c4553e"/>
-      <stop offset=".28" stop-color="#b6412c"/>
+    <linearGradient id="mk-seal" x1="200" y1="160" x2="660" y2="720" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#cb5c44"/>
+      <stop offset=".26" stop-color="#b6412c"/>
       <stop offset=".62" stop-color="#a3311f"/>
-      <stop offset="1" stop-color="#84200f"/>
+      <stop offset="1" stop-color="#7f1e0d"/>
     </linearGradient>
-    <linearGradient id="mk-seal-sheen" x1="0" y1="286" x2="0" y2="662" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#ffffff" stop-opacity=".2"/>
-      <stop offset=".22" stop-color="#ffffff" stop-opacity=".04"/>
-      <stop offset=".82" stop-color="#3d0d04" stop-opacity=".1"/>
-      <stop offset="1" stop-color="#3d0d04" stop-opacity=".3"/>
+    <linearGradient id="mk-seal-sheen" x1="0" y1="152" x2="0" y2="712" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffffff" stop-opacity=".22"/>
+      <stop offset=".24" stop-color="#ffffff" stop-opacity=".03"/>
+      <stop offset=".8" stop-color="#3d0d04" stop-opacity=".1"/>
+      <stop offset="1" stop-color="#3d0d04" stop-opacity=".32"/>
     </linearGradient>
 
-    <g id="mk-shi" transform="translate(440 474) scale(6.56) translate(-32 -32.1)" fill="none" stroke="#fdf6e6" stroke-linecap="round" stroke-linejoin="round">
-      <path d="M18.2 17.3H45.8" stroke-width="3.4"/>
-      <path d="M18.2 33.3H45.8" stroke-width="3.4"/>
-      <path d="M20 17.4v15.8" stroke-width="4.3"/>
-      <path d="M44 17.4v15.8" stroke-width="4.3"/>
-      <path d="M32 13.8v21.8" stroke-width="4.3"/>
-      <path d="M32 35.4c-1.6 6.8-5 11-11.4 15" stroke-width="4"/>
-      <path d="M32 35.4c1.6 6.8 5 11 11.4 15" stroke-width="4"/>
+    <!-- 印章字形：口径 64，按 11 倍放大到 704，笔画约 37 -->
+    <g id="mk-shi" transform="translate(422 432) scale(11) translate(-32 -32.1)" fill="none" stroke="#fdf6e6" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M18.2 17.3H45.8" stroke-width="3.8"/>
+      <path d="M18.2 33.3H45.8" stroke-width="3.8"/>
+      <path d="M20 17.4v15.8" stroke-width="4.7"/>
+      <path d="M44 17.4v15.8" stroke-width="4.7"/>
+      <path d="M32 13.8v21.8" stroke-width="4.7"/>
+      <path d="M32 35.2c-1.5 6.6-5 10.6-11 14.8" stroke-width="4.4"/>
+      <path d="M32 35.2c1.5 6.6 5 10.6 11 14.8" stroke-width="4.4"/>
     </g>
 
-    <!-- 底层静物：镜片内按 1.22 倍重绘，形成真实折射而非贴图 -->
+    <!-- 底层静物：镜片内按 1.35 倍重绘，形成真实折射而非贴图 -->
     <g id="mk-scene">
-      <rect width="1024" height="1024" fill="url(#mk-paper)"/>
-      <rect width="1024" height="1024" fill="url(#mk-grid)" opacity=".55"/>
-      <rect width="1024" height="1024" fill="url(#mk-sheen)"/>
+      <rect x="46" y="42" width="932" height="932" fill="url(#mk-paper)"/>
+      <rect x="46" y="42" width="932" height="932" fill="url(#mk-grid)" opacity=".6"/>
+      <rect x="46" y="42" width="932" height="932" fill="url(#mk-sheen)"/>
 
       <!-- 压印：纸被印章压出的浅槽 -->
-      <rect x="242" y="276" width="396" height="396" rx="34" fill="#6b4b22" opacity=".13" filter="url(#mk-blur4)"/>
-      <rect x="244" y="278" width="392" height="392" rx="32" fill="#fffdf4" opacity=".55" filter="url(#mk-blur2)"/>
+      <rect x="128" y="138" width="588" height="588" rx="44" fill="#6b4b22" opacity=".14" filter="url(#mk-blur6)"/>
+      <rect x="130" y="140" width="584" height="584" rx="42" fill="#fffdf4" opacity=".5" filter="url(#mk-blur4)"/>
 
-      <rect x="252" y="286" width="376" height="376" rx="26" fill="url(#mk-seal)"/>
-      <rect x="252" y="286" width="376" height="376" rx="26" fill="url(#mk-grain)" opacity=".5"/>
-      <rect x="252" y="286" width="376" height="376" rx="26" fill="url(#mk-seal-sheen)"/>
+      <rect x="142" y="152" width="560" height="560" rx="34" fill="url(#mk-seal)"/>
+      <rect x="142" y="152" width="560" height="560" rx="34" fill="url(#mk-grain)" opacity=".34"/>
+      <rect x="142" y="152" width="560" height="560" rx="34" fill="url(#mk-seal-sheen)"/>
 
       <!-- 印泥深浅不匀 -->
-      <ellipse cx="330" cy="580" rx="118" ry="72" fill="#6d1304" opacity=".18" filter="url(#mk-blur14)"/>
-      <ellipse cx="560" cy="346" rx="96" ry="58" fill="#e8a08c" opacity=".14" filter="url(#mk-blur14)"/>
+      <ellipse cx="258" cy="600" rx="150" ry="92" fill="#6d1304" opacity=".2" filter="url(#mk-blur14)"/>
+      <ellipse cx="590" cy="230" rx="128" ry="76" fill="#eda695" opacity=".16" filter="url(#mk-blur14)"/>
 
       <!-- 印面线框 -->
-      <rect x="268" y="302" width="344" height="344" rx="16" fill="none" stroke="#fdf0dc" stroke-opacity=".34" stroke-width="2.4"/>
-      <rect x="252" y="286" width="376" height="376" rx="26" fill="none" stroke="#5e1206" stroke-opacity=".42" stroke-width="1.6"/>
-      <rect x="255" y="289" width="370" height="370" rx="23" fill="none" stroke="#ffd9c6" stroke-opacity=".3" stroke-width="1.4"/>
+      <rect x="166" y="176" width="512" height="512" rx="20" fill="none" stroke="#fdf0dc" stroke-opacity=".32" stroke-width="3"/>
+      <rect x="142" y="152" width="560" height="560" rx="34" fill="none" stroke="#5e1206" stroke-opacity=".45" stroke-width="2"/>
+      <rect x="146" y="156" width="552" height="552" rx="30" fill="none" stroke="#ffd9c6" stroke-opacity=".3" stroke-width="1.8"/>
 
       <use href="#mk-shi"/>
 
-      <rect width="1024" height="1024" fill="url(#mk-grain)" opacity=".2"/>
-      <rect width="1024" height="1024" fill="url(#mk-vignette)"/>
+      <rect x="46" y="42" width="932" height="932" fill="url(#mk-grain)" opacity=".18"/>
+      <rect x="46" y="42" width="932" height="932" fill="url(#mk-vignette)"/>
     </g>
 
     <!-- ===== 玻璃 ===== -->
-    <radialGradient id="mk-glass" cx="600" cy="556" r="252" gradientUnits="userSpaceOnUse">
+    <radialGradient id="mk-glass" cx="672" cy="672" r="330" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#ffffff" stop-opacity=".02"/>
-      <stop offset=".58" stop-color="#eef8ff" stop-opacity=".07"/>
-      <stop offset=".86" stop-color="#d6f0ff" stop-opacity=".2"/>
+      <stop offset=".56" stop-color="#eef8ff" stop-opacity=".06"/>
+      <stop offset=".85" stop-color="#d6f0ff" stop-opacity=".19"/>
       <stop offset=".97" stop-color="#bfe6fb" stop-opacity=".4"/>
-      <stop offset="1" stop-color="#a9d6ef" stop-opacity=".52"/>
+      <stop offset="1" stop-color="#a9d6ef" stop-opacity=".54"/>
     </radialGradient>
-    <linearGradient id="mk-dispersion" x1="500" y1="470" x2="800" y2="770" gradientUnits="userSpaceOnUse">
+    <linearGradient id="mk-dispersion" x1="580" y1="580" x2="960" y2="960" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#ff5f6d"/>
       <stop offset=".36" stop-color="#ffc371"/>
       <stop offset=".68" stop-color="#5ff2c8"/>
       <stop offset="1" stop-color="#5f8fff"/>
     </linearGradient>
-    <radialGradient id="mk-rimlight" cx="612" cy="600" r="168" gradientUnits="userSpaceOnUse">
+    <radialGradient id="mk-rimlight" cx="740" cy="750" r="228" gradientUnits="userSpaceOnUse">
       <stop offset=".72" stop-color="#ffffff" stop-opacity="0"/>
-      <stop offset=".92" stop-color="#ffffff" stop-opacity=".5"/>
-      <stop offset="1" stop-color="#ffffff" stop-opacity=".86"/>
+      <stop offset=".92" stop-color="#ffffff" stop-opacity=".46"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity=".84"/>
     </radialGradient>
-    <linearGradient id="mk-brass" x1="470" y1="430" x2="830" y2="810" gradientUnits="userSpaceOnUse">
+    <linearGradient id="mk-brass" x1="560" y1="560" x2="990" y2="1000" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#fdf3d2"/>
       <stop offset=".14" stop-color="#d9b268"/>
       <stop offset=".32" stop-color="#9a6f2c"/>
@@ -108,7 +109,7 @@
       <stop offset=".86" stop-color="#c9a462"/>
       <stop offset="1" stop-color="#7b5620"/>
     </linearGradient>
-    <linearGradient id="mk-handle" x1="770" y1="740" x2="940" y2="920" gradientUnits="userSpaceOnUse">
+    <linearGradient id="mk-handle" x1="920" y1="930" x2="1040" y2="1050" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#f6e6bd"/>
       <stop offset=".3" stop-color="#c49a52"/>
       <stop offset=".55" stop-color="#8a6127"/>
@@ -121,64 +122,74 @@
     <filter id="mk-blur6" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="6"/></filter>
     <filter id="mk-blur10" x="-45%" y="-45%" width="190%" height="190%"><feGaussianBlur stdDeviation="10"/></filter>
     <filter id="mk-blur14" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="14"/></filter>
-    <filter id="mk-blur24" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="24"/></filter>
+    <filter id="mk-blur34" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="34"/></filter>
     <filter id="mk-blur60" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="60"/></filter>
 
-    <clipPath id="mk-card"><rect width="1024" height="1024" rx="226"/></clipPath>
-    <clipPath id="mk-lens"><circle cx="612" cy="600" r="156"/></clipPath>
+    <clipPath id="mk-card"><rect x="46" y="42" width="932" height="932" rx="206"/></clipPath>
+    <clipPath id="mk-lens"><circle cx="740" cy="750" r="205"/></clipPath>
   </defs>
 
+  <!-- 纸卡投下的影 -->
+  <rect x="56" y="60" width="932" height="932" rx="206" fill="#4a3517" opacity=".3" filter="url(#mk-blur34)"/>
+
+  <!-- 纸卡本体 -->
   <g clip-path="url(#mk-card)">
     <use href="#mk-scene"/>
   </g>
 
-  <rect x="1.6" y="1.6" width="1020.8" height="1020.8" rx="224.6" fill="none" stroke="#ffffff" stroke-opacity=".75" stroke-width="3.2"/>
-  <rect x=".9" y=".9" width="1022.2" height="1022.2" rx="225.2" fill="none" stroke="#5b4a2c" stroke-opacity=".22" stroke-width="1.8"/>
+  <rect x="47.6" y="43.6" width="928.8" height="928.8" rx="204.4" fill="none" stroke="#ffffff" stroke-opacity=".78" stroke-width="3.2"/>
+  <rect x="46.9" y="42.9" width="930.2" height="930.2" rx="205.1" fill="none" stroke="#5b4a2c" stroke-opacity=".2" stroke-width="1.8"/>
 
-  <g opacity=".46">
-    <ellipse cx="664" cy="680" rx="196" ry="188" fill="#3a2a10" filter="url(#mk-blur24)"/>
-    <path d="M762 750 926 914" stroke="#3a2a10" stroke-width="60" stroke-linecap="round" filter="url(#mk-blur24)"/>
+  <!-- 放大镜投在纸上的影 -->
+  <g opacity=".44">
+    <ellipse cx="808" cy="822" rx="238" ry="228" fill="#3a2a10" filter="url(#mk-blur34)"/>
+    <path d="M916 926 1016 1026" stroke="#3a2a10" stroke-width="74" stroke-linecap="round" filter="url(#mk-blur34)"/>
   </g>
 
+  <!-- 手柄：自右下缘伸出画布 -->
   <g>
-    <path d="M736 724 900 888" stroke="#4b3410" stroke-width="58" stroke-linecap="round" opacity=".3" filter="url(#mk-blur6)"/>
-    <path d="M736 724 900 888" stroke="url(#mk-handle)" stroke-width="54" stroke-linecap="round"/>
-    <path d="M744 718 894 868" stroke="#fff4d2" stroke-opacity=".42" stroke-width="12" stroke-linecap="round"/>
-    <path d="M730 736 880 886" stroke="#3f2a08" stroke-opacity=".3" stroke-width="8" stroke-linecap="round"/>
-    <circle cx="900" cy="888" r="27" fill="url(#mk-handle)"/>
-    <circle cx="894" cy="882" r="10" fill="#fff6da" opacity=".28"/>
+    <path d="M904 914 1008 1018" stroke="#4b3410" stroke-width="60" stroke-linecap="round" opacity=".32" filter="url(#mk-blur6)"/>
+    <path d="M904 914 1008 1018" stroke="url(#mk-handle)" stroke-width="62" stroke-linecap="round"/>
+    <path d="M914 906 1010 1002" stroke="#fff4d2" stroke-opacity=".42" stroke-width="14" stroke-linecap="round"/>
+    <path d="M896 926 992 1022" stroke="#3f2a08" stroke-opacity=".3" stroke-width="9" stroke-linecap="round"/>
+    <circle cx="1008" cy="1018" r="31" fill="url(#mk-handle)"/>
   </g>
 
-  <circle cx="612" cy="600" r="173" fill="none" stroke="#503508" stroke-width="36" opacity=".35"/>
-  <circle cx="612" cy="600" r="173" fill="none" stroke="url(#mk-brass)" stroke-width="34"/>
-  <circle cx="612" cy="600" r="173" fill="none" stroke="#fffbe8" stroke-opacity=".3" stroke-width="2.5"/>
-  <circle cx="612" cy="600" r="188" fill="none" stroke="#43300a" stroke-width="2" stroke-opacity=".55"/>
-  <circle cx="612" cy="600" r="158" fill="none" stroke="#3d2a08" stroke-width="3" stroke-opacity=".6"/>
-  <circle cx="612" cy="600" r="156" fill="none" stroke="#fff3cf" stroke-opacity=".45" stroke-width="2"/>
+  <!-- 黄铜镜圈 -->
+  <circle cx="740" cy="750" r="233" fill="none" stroke="#503508" stroke-width="42" opacity=".35"/>
+  <circle cx="740" cy="750" r="233" fill="none" stroke="url(#mk-brass)" stroke-width="42"/>
+  <circle cx="740" cy="750" r="233" fill="none" stroke="#fffbe8" stroke-opacity=".3" stroke-width="3"/>
+  <circle cx="740" cy="750" r="252" fill="none" stroke="#43300a" stroke-width="2.4" stroke-opacity=".5"/>
+  <circle cx="740" cy="750" r="208" fill="none" stroke="#3d2a08" stroke-width="3.4" stroke-opacity=".6"/>
+  <circle cx="740" cy="750" r="205" fill="none" stroke="#fff3cf" stroke-opacity=".44" stroke-width="2.4"/>
 
   <g clip-path="url(#mk-lens)">
-    <!-- 折射光轴略偏镜心：镜内画面相对镜外整体位移并放大，形成玻璃错位 -->
-    <use href="#mk-scene" transform="translate(-168 -163.5) scale(1.3)"/>
-    <circle cx="612" cy="600" r="156" fill="url(#mk-glass)"/>
-    <circle cx="612" cy="600" r="156" fill="none" stroke="#5f7488" stroke-opacity=".12" stroke-width="14"/>
-    <circle cx="612" cy="600" r="150" fill="none" stroke="url(#mk-dispersion)" stroke-opacity=".2" stroke-width="9"/>
-    <circle cx="612" cy="600" r="143" fill="none" stroke="url(#mk-dispersion)" stroke-opacity=".11" stroke-width="4"/>
-    <circle cx="612" cy="600" r="156" fill="url(#mk-rimlight)"/>
-    <!-- 镜面反光：贴边柔光带 + 锐亮线，端点重合避免双线感 -->
-    <path d="M480 570Q498 496 574 468" fill="none" stroke="#ffffff" stroke-opacity=".3" stroke-width="34" stroke-linecap="round" filter="url(#mk-blur10)"/>
-    <path d="M488 556Q506 498 568 474" fill="none" stroke="#ffffff" stroke-opacity=".72" stroke-width="8" stroke-linecap="round" filter="url(#mk-blur2)"/>
-    <path d="M492 550Q510 502 562 480" fill="none" stroke="#ffffff" stroke-opacity=".85" stroke-width="3" stroke-linecap="round"/>
+    <!-- 光轴落在印章右下角：镜内是 2.5 倍的印章特写，与镜外形成真实错位 -->
+    <use href="#mk-scene" transform="translate(-640 -660) scale(2)"/>
+    <circle cx="740" cy="750" r="205" fill="url(#mk-glass)"/>
+    <circle cx="740" cy="750" r="205" fill="none" stroke="#5f7488" stroke-opacity=".12" stroke-width="18"/>
+    <circle cx="740" cy="750" r="196" fill="none" stroke="url(#mk-dispersion)" stroke-opacity=".2" stroke-width="12"/>
+    <circle cx="740" cy="750" r="186" fill="none" stroke="url(#mk-dispersion)" stroke-opacity=".11" stroke-width="5"/>
+    <circle cx="740" cy="750" r="205" fill="url(#mk-rimlight)"/>
+
+    <!-- 镜面反光：贴边柔光带 + 锐亮线 -->
+    <path d="M566 696Q586 616 660 586" fill="none" stroke="#ffffff" stroke-opacity=".3" stroke-width="44" stroke-linecap="round" filter="url(#mk-blur14)"/>
+    <path d="M574 676Q600 604 664 576" fill="none" stroke="#ffffff" stroke-opacity=".7" stroke-width="10" stroke-linecap="round" filter="url(#mk-blur2)"/>
+    <path d="M580 662Q608 606 656 582" fill="none" stroke="#ffffff" stroke-opacity=".85" stroke-width="4" stroke-linecap="round"/>
+
     <!-- 底部环境反光 -->
-    <path d="M666 716Q702 702 720 672" fill="none" stroke="#ffffff" stroke-opacity=".26" stroke-width="12" stroke-linecap="round" filter="url(#mk-blur6)"/>
-    <ellipse cx="676" cy="686" rx="58" ry="24" transform="rotate(-42 676 686)" fill="#dff2ff" opacity=".14" filter="url(#mk-blur10)"/>
+    <path d="M810 912Q856 892 880 852" fill="none" stroke="#ffffff" stroke-opacity=".26" stroke-width="15" stroke-linecap="round" filter="url(#mk-blur6)"/>
+    <ellipse cx="822" cy="870" rx="74" ry="30" transform="rotate(-42 822 870)" fill="#dff2ff" opacity=".14" filter="url(#mk-blur14)"/>
   </g>
 
-  <circle cx="500" cy="524" r="9" fill="#ffffff" opacity=".85" filter="url(#mk-blur2)"/>
-  <circle cx="500" cy="524" r="3.6" fill="#ffffff"/>
+  <!-- 镜口高光点 -->
+  <circle cx="608" cy="636" r="11" fill="#ffffff" opacity=".85" filter="url(#mk-blur2)"/>
+  <circle cx="608" cy="636" r="4.2" fill="#ffffff"/>
 
+  <!-- 整体镜面涂层 -->
   <g clip-path="url(#mk-card)">
-    <path d="M-80 620 700-160 900-160 120 760Z" fill="#ffffff" opacity=".07"/>
-    <ellipse cx="512" cy="-120" rx="760" ry="300" fill="#ffffff" opacity=".34" filter="url(#mk-blur60)"/>
-    <ellipse cx="560" cy="1150" rx="800" ry="300" fill="#a68c5e" opacity=".22" filter="url(#mk-blur60)"/>
+    <path d="M-40 700 700-40 900-40 160 800Z" fill="#ffffff" opacity=".07"/>
+    <ellipse cx="500" cy="-80" rx="720" ry="280" fill="#ffffff" opacity=".32" filter="url(#mk-blur60)"/>
+    <ellipse cx="540" cy="1090" rx="760" ry="280" fill="#a68c5e" opacity=".2" filter="url(#mk-blur60)"/>
   </g>
 </svg>

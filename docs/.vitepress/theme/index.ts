@@ -6,10 +6,12 @@ import EvidenceLightbox from './EvidenceLightbox.vue'
 import EvidenceImage from './EvidenceImage.vue'
 import EvidenceCount from './EvidenceCount.vue'
 import ArchiveHome from './ArchiveHome.vue'
+import ReadingProgress from './ReadingProgress.vue'
 
 const Layout = defineComponent({
   setup() {
     return () => h(DefaultTheme.Layout, null, {
+      'layout-top': () => h(ReadingProgress),
       'layout-bottom': () => h(EvidenceLightbox)
     })
   }

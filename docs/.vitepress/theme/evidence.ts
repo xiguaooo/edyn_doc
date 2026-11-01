@@ -18,3 +18,14 @@ export function evidenceSource(id: string | number) {
   }
   return withBase(`/evidence/image${key}.${extension}`)
 }
+
+/**
+ * 列表用的缩略图（长边 440px）。
+ * 原图单张常过 1MB，两百多张按原图解码会把滚动压到 30fps 以下。
+ * 由 npm run evidence:thumbs 生成；缺失时组件回退到原图。
+ */
+export function evidenceThumb(id: string | number) {
+  const key = String(id)
+  if (!extensionById.has(key)) return evidenceSource(key)
+  return withBase(`/evidence-thumb/image${key}.jpg`)
+}

@@ -44,7 +44,24 @@ export default defineConfig({
       ]
     },
     outline: { level: [2, 3], label: '本页内容' },
-    search: { provider: 'local' },
+    search: {
+      provider: 'local',
+      options: {
+        translations: {
+          button: { buttonText: '搜索', buttonAriaLabel: '搜索' },
+          modal: {
+            noResultsText: '没有找到相关内容',
+            resetButtonTitle: '清除',
+            displayDetails: '展开详情',
+            footer: {
+              selectText: '选择',
+              navigateText: '切换',
+              closeText: '关闭'
+            }
+          }
+        }
+      }
+    },
     socialLinks: [{ icon: 'github', link: 'https://github.com/xiguaooo/edyn_doc' }],
     footer: { message: '叙述与截图分开存档，原图未打码。', copyright: '内容以仓库声明为准' }
   }

@@ -1,44 +1,43 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="m3t">
-  <title id="m3t">伊甸园史记</title>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="mk-t">
+  <title id="mk-t">伊甸园史记</title>
   <defs>
-    <linearGradient id="m3-leather" x1="0" y1="3" x2="0" y2="61" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#722a20"/>
-      <stop offset=".4" stop-color="#571d15"/>
-      <stop offset="1" stop-color="#31100a"/>
+    <linearGradient id="mk-paper" x1="0" y1="4" x2="0" y2="60" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fbf7ee"/>
+      <stop offset=".55" stop-color="#f4edda"/>
+      <stop offset="1" stop-color="#e9dfc6"/>
     </linearGradient>
-    <radialGradient id="m3-vignette" cx="29" cy="26" r="46" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#ffffff" stop-opacity=".12"/>
+    <radialGradient id="mk-vin" cx="32" cy="22" r="46" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffffff" stop-opacity=".55"/>
       <stop offset=".55" stop-color="#ffffff" stop-opacity="0"/>
-      <stop offset="1" stop-color="#120504" stop-opacity=".55"/>
+      <stop offset="1" stop-color="#7d6c48" stop-opacity=".16"/>
     </radialGradient>
-    <linearGradient id="m3-gold" x1="17" y1="16" x2="47" y2="49" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#fff4c8"/>
-      <stop offset=".3" stop-color="#efd28c"/>
-      <stop offset=".6" stop-color="#c99a44"/>
-      <stop offset="1" stop-color="#8a5f1c"/>
+    <linearGradient id="mk-red" x1="0" y1="19" x2="0" y2="45" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#d1503c"/>
+      <stop offset=".5" stop-color="#b93325"/>
+      <stop offset="1" stop-color="#982217"/>
     </linearGradient>
-    <linearGradient id="m3-glyph" x1="22" y1="18" x2="43" y2="46" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#fff6d4"/>
-      <stop offset=".45" stop-color="#f0d79a"/>
-      <stop offset="1" stop-color="#c79742"/>
+    <linearGradient id="mk-metal" x1="38" y1="37" x2="57" y2="58" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f9ecc0"/>
+      <stop offset=".3" stop-color="#dcb058"/>
+      <stop offset=".62" stop-color="#a47c2c"/>
+      <stop offset="1" stop-color="#6b4c12"/>
     </linearGradient>
-    <filter id="m3-grain" x="0" y="0" width="100%" height="100%">
-      <feTurbulence type="fractalNoise" baseFrequency="0.95" numOctaves="3" seed="8" stitchTiles="stitch"/>
-      <feColorMatrix type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  .55 .55 .55 0 0"/>
+    <radialGradient id="mk-glass" cx="44" cy="44" r="5.9" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffffff" stop-opacity=".14"/>
+      <stop offset=".68" stop-color="#dcecf5" stop-opacity=".34"/>
+      <stop offset=".93" stop-color="#bed9e8" stop-opacity=".62"/>
+      <stop offset="1" stop-color="#a9c9dc" stop-opacity=".75"/>
+    </radialGradient>
+    <filter id="mk-grain" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" seed="11" stitchTiles="stitch"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  .35 .35 .35 0 0"/>
     </filter>
-    <filter id="m3-mottle" x="0" y="0" width="100%" height="100%">
-      <feTurbulence type="fractalNoise" baseFrequency="0.05" numOctaves="2" seed="3"/>
-      <feColorMatrix type="matrix" values="0 0 0 0 1  0 0 0 0 .9  0 0 0 0 .75  .22 .22 .22 0 0"/>
+    <filter id="mk-soft" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="1.6"/>
     </filter>
-    <filter id="m3-soft" x="-40%" y="-40%" width="180%" height="180%">
-      <feGaussianBlur stdDeviation="1.8"/>
-    </filter>
-    <filter id="m3-emboss" x="-30%" y="-30%" width="160%" height="160%">
-      <feGaussianBlur stdDeviation=".5"/>
-    </filter>
-    <clipPath id="m3-clip"><rect x="3" y="3" width="58" height="58" rx="12"/></clipPath>
-    <path id="m3-corner" d="M4.7 16.4V9.6a4.9 4.9 0 0 1 4.9-4.9h6.8l-2.9 3.3h-3.4a2.2 2.2 0 0 0-2.2 2.2v3.4z"/>
-    <g id="m3-glyph-src" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <clipPath id="mk-sq"><rect x="3" y="3" width="58" height="58" rx="13"/></clipPath>
+    <clipPath id="mk-lens"><circle cx="44" cy="44" r="5.9"/></clipPath>
+    <g id="mk-shi" fill="none" stroke-linecap="round" stroke-linejoin="round" transform="translate(32 32) scale(.58) translate(-32 -32.1)">
       <path d="M18.2 17.3H45.8" stroke-width="3.4"/>
       <path d="M18.2 33.3H45.8" stroke-width="3.4"/>
       <path d="M20 17.4V33.2" stroke-width="4.3"/>
@@ -47,42 +46,45 @@
       <path d="M32 35.4C30.4 42.2 27 46.4 20.6 50.4" stroke-width="4"/>
       <path d="M32 35.4C33.6 42.2 37 46.4 43.4 50.4" stroke-width="4"/>
     </g>
+    <g id="mk-scene">
+      <rect x="3" y="3" width="58" height="58" rx="13" fill="url(#mk-paper)"/>
+      <rect x="3" y="3" width="58" height="58" rx="13" filter="url(#mk-grain)" opacity=".22"/>
+      <rect x="3" y="3" width="58" height="58" rx="13" fill="url(#mk-vin)"/>
+      <rect x="19" y="19" width="26" height="26" rx="4" fill="url(#mk-red)"/>
+      <rect x="19.6" y="19.6" width="24.8" height="24.8" rx="3.5" fill="none" stroke="#7e150c" stroke-opacity=".55" stroke-width=".6"/>
+      <rect x="18.4" y="18.4" width="27.2" height="27.2" rx="4.6" fill="none" stroke="#ffffff" stroke-opacity=".35" stroke-width=".7"/>
+      <use href="#mk-shi" stroke="#faf5e8"/>
+    </g>
   </defs>
 
-  <ellipse cx="32" cy="60.6" rx="25" ry="2.7" fill="#1b0704" opacity=".36" filter="url(#m3-soft)"/>
+  <ellipse cx="32" cy="60.4" rx="24" ry="2.4" fill="#241a08" opacity=".3" filter="url(#mk-soft)"/>
 
-  <rect x="3" y="3" width="58" height="58" rx="12" fill="url(#m3-leather)"/>
-  <g clip-path="url(#m3-clip)">
-    <rect x="3" y="3" width="58" height="58" filter="url(#m3-mottle)" opacity=".5"/>
-    <rect x="3" y="3" width="58" height="58" filter="url(#m3-grain)" opacity=".45"/>
-    <rect x="3" y="3" width="58" height="58" fill="url(#m3-vignette)"/>
-    <path d="M3 40 42 3h10L3 49z" fill="#ffffff" opacity=".035"/>
-  </g>
-  <rect x="3.5" y="3.5" width="57" height="57" rx="11.7" fill="none" stroke="#240804" stroke-opacity=".7" stroke-width=".9"/>
+  <use href="#mk-scene"/>
 
-  <rect x="7.4" y="7.4" width="49.2" height="49.2" rx="8.4" fill="none" stroke="#2a0a05" stroke-opacity=".7" stroke-width="1.1"/>
-  <rect x="7" y="7" width="49.2" height="49.2" rx="8.4" fill="none" stroke="#9a5a44" stroke-opacity=".35" stroke-width=".5"/>
-  <rect x="9.2" y="9.2" width="45.6" height="45.6" rx="7.1" fill="none" stroke="#d9c39a" stroke-opacity=".38" stroke-width=".55" stroke-dasharray="1.5 1.7" stroke-linecap="round"/>
-  <rect x="9.5" y="9.5" width="45.6" height="45.6" rx="7.1" fill="none" stroke="#1d0603" stroke-opacity=".4" stroke-width=".5" stroke-dasharray="1.5 1.7" stroke-linecap="round"/>
-
-  <g transform="translate(32 32) scale(.68) translate(-32 -32)">
-    <g transform="translate(.55 .7)" filter="url(#m3-emboss)">
-      <use href="#m3-glyph-src" stroke="#1c0603" stroke-opacity=".7"/>
-    </g>
-    <g transform="translate(-.3 -.4)" filter="url(#m3-emboss)">
-      <use href="#m3-glyph-src" stroke="#ffe8b6" stroke-opacity=".35"/>
-    </g>
-    <use href="#m3-glyph-src" stroke="url(#m3-glyph)"/>
+  <g clip-path="url(#mk-sq)">
+    <ellipse cx="50" cy="50.6" rx="10" ry="3.2" transform="rotate(45 50 50.6)" fill="#5f4d28" opacity=".3" filter="url(#mk-soft)"/>
   </g>
 
-  <g fill="url(#m3-gold)" stroke="#5e3f10" stroke-width=".35" stroke-linejoin="round">
-    <use href="#m3-corner"/>
-    <use href="#m3-corner" transform="rotate(90 32 32)"/>
-    <use href="#m3-corner" transform="rotate(180 32 32)"/>
-    <use href="#m3-corner" transform="rotate(270 32 32)"/>
+  <g transform="rotate(45 44 44)">
+    <rect x="50.2" y="42.3" width="10.6" height="3.4" rx="1.6" fill="url(#mk-metal)" stroke="#5d400f" stroke-width=".4"/>
+    <rect x="51.8" y="41.9" width="1.8" height="4.2" rx=".9" fill="#8a6318" stroke="#574013" stroke-width=".35"/>
+    <rect x="53.4" y="42.75" width="6.4" height=".5" rx=".25" fill="#fff3cf" opacity=".55"/>
   </g>
-  <g fill="#fbeec4" opacity=".55">
-    <circle cx="8.9" cy="8.9" r=".5"/><circle cx="55.1" cy="8.9" r=".5"/>
-    <circle cx="55.1" cy="55.1" r=".5"/><circle cx="8.9" cy="55.1" r=".5"/>
+
+  <circle cx="44" cy="44" r="7.8" fill="none" stroke="#4a3208" stroke-width=".5" stroke-opacity=".8"/>
+  <circle cx="44" cy="44" r="6.95" fill="none" stroke="url(#mk-metal)" stroke-width="1.9"/>
+  <circle cx="44" cy="44" r="7.95" fill="none" stroke="#fff6d8" stroke-width=".35" stroke-opacity=".55"/>
+  <circle cx="44" cy="44" r="5.95" fill="none" stroke="#574013" stroke-width=".45" stroke-opacity=".9"/>
+
+  <g clip-path="url(#mk-lens)">
+    <use href="#mk-scene" transform="translate(-6.6 -6.6) scale(1.15)"/>
+    <circle cx="44" cy="44" r="5.9" fill="#cfe4f0" opacity=".18"/>
+    <circle cx="44" cy="44" r="5.9" fill="url(#mk-glass)"/>
+    <path d="M39.6 47.2 47.4 39.4" stroke="#ffffff" stroke-opacity=".28" stroke-width="2.1" stroke-linecap="round"/>
+    <path d="M38.9 44.9 44.6 39.2" stroke="#ffffff" stroke-opacity=".2" stroke-width=".9" stroke-linecap="round"/>
+    <circle cx="44" cy="44" r="5.6" fill="none" stroke="#9db8c8" stroke-width=".5" stroke-opacity=".5"/>
+    <path d="M39.7 42.6A5.1 5.1 0 0 1 43.2 39" fill="none" stroke="#ffffff" stroke-opacity=".95" stroke-width="1.2" stroke-linecap="round"/>
+    <path d="M47.3 47.2A5.1 5.1 0 0 1 45.6 48.6" fill="none" stroke="#ffffff" stroke-opacity=".5" stroke-width=".7" stroke-linecap="round"/>
   </g>
+  <circle cx="39.8" cy="39.8" r=".55" fill="#fffbe8" opacity=".85"/>
 </svg>

@@ -42,6 +42,17 @@ There is currently no separate unit-test or lint script. Always run `npm run doc
 
 Every user-visible update must also update `docs/changelog.md` in the same commit. Add a dated entry that names the affected pages or components, summarizes the behavior change, and records the validation command when relevant. Keep the changelog in reverse chronological order and do not wait for a later cleanup commit.
 
+## Appendix Pages Must Stay in Sync
+
+The appendix pages (`docs/timeline.md`, `docs/about/structure.md`, `docs/about/foreword.md`, `docs/evidence/index.md`) are the first things readers check and the easiest to forget. Whenever a history chapter changes, check all of them **in the same commit**:
+
+- `docs/timeline.md`: add or move event rows, keep the range statement (currently 2026-01-17 to 2026-10-07) accurate, and verify every chapter anchor still resolves.
+- `docs/about/structure.md`: the 管理变动索引 table must reach the latest chapter endpoint (currently 10-07, not 08-09); add new terms actually used in the chapters to 史记中的常用词, and new group names to 群体演变.
+- `docs/about/foreword.md`: the 史记信息 table (记录起点 / 本版截止 / 站点收录截图) must match the current state; keep credits consistent everywhere in the page — do not name a contributor in one paragraph and omit them from the lists.
+- `docs/evidence/index.md`: keep the composition note (Word 底本 219 张 + 续记材料) and numbering rules consistent with the manifest.
+
+Writing rules for appendices mirror the chapters: no "不代表本站……" style disclaimers inside prose, source notes go into a `>` quote line (「记录者转述，仓库未收录对应截图」), and interpretive content stays out of narrative paragraphs.
+
 ## Coding Style & Naming Conventions
 
 Use UTF-8 Markdown with concise Chinese prose. Keep headings descriptive and use ATX headings (`#`, `##`). Use two spaces for nested Markdown indentation. History image references use `<EvidenceImage :id="N" />`, or `id="N"` for letter-suffix IDs; preserve image IDs and original file extensions. Vue/TypeScript components use PascalCase filenames, while utility modules use lowercase or descriptive camelCase names. Match the existing VitePress and Vue style before introducing abstractions.
